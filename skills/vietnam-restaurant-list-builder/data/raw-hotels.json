@@ -1,0 +1,87 @@
+{
+  "source": "hotels",
+  "collected_at": "2026-05-15",
+  "notes": "Collected from each hotel's official Dining page via WebSearch result digests.",
+  "restaurants": [
+    {
+      "name_official": "Le Beaulieu",
+      "source_url": "https://www.sofitel-legend-metropole-hanoi.com/dining/le-beaulieu/",
+      "source_category": "hotel-fine-dining",
+      "hotel_name": "Sofitel Legend Metropole Hanoi",
+      "raw_address": "15 Ngô Quyền, Hoàn Kiếm, Hà Nội",
+      "raw_cuisine": "Modern French",
+      "raw_phone": "+84 24 3826 6919",
+      "raw_notes": "Believed to be the oldest continually operating restaurant in Vietnam (since 1901). Reopened after refurbishment. Classic high-end French gastronomy."
+    },
+    {
+      "name_official": "Spices Garden",
+      "source_url": "https://www.sofitel-legend-metropole-hanoi.com/dining/spice-garden/",
+      "source_category": "hotel-fine-dining",
+      "hotel_name": "Sofitel Legend Metropole Hanoi",
+      "raw_address": "15 Ngô Quyền, Hoàn Kiếm, Hà Nội",
+      "raw_cuisine": "Vietnamese (refined)",
+      "raw_phone": "+84 24 3826 6919",
+      "raw_notes": "Refined modern Vietnamese inside Sofitel Metropole; refurbished 2023."
+    },
+    {
+      "name_official": "Angelina",
+      "source_url": "https://sofitel.accor.com/en/hotels/1555/R002.restaurant.html",
+      "source_category": "hotel-fine-dining",
+      "hotel_name": "Sofitel Legend Metropole Hanoi",
+      "raw_address": "15 Ngô Quyền, Hoàn Kiếm, Hà Nội",
+      "raw_cuisine": "European / Lounge / Steakhouse",
+      "raw_phone": "+84 24 3826 6919",
+      "raw_notes": "Bar-lounge-restaurant; oysters, lobster, wagyu. Habanos Lounge (cigars)."
+    },
+    {
+      "name_official": "Top of Hanoi",
+      "source_url": "https://www.lottehotel.com/hanoi-hotel/en/dining/restaurant-top-of-hanoi",
+      "source_category": "hotel-rooftop",
+      "hotel_name": "Lotte Hotel Hanoi",
+      "raw_address": "65F, 54 Liễu Giai, Cống Vị, Ba Đình, Hà Nội",
+      "raw_cuisine": "Brasserie / Western-Asian",
+      "raw_phone": "+84 24 3333 1000",
+      "raw_notes": "65F rooftop with 360° panorama of Hanoi. Smart casual dress code. The reference example in tagging-guide.md for `date` + view."
+    },
+    {
+      "name_official": "French Grill by Jean-François Nulli",
+      "source_url": "https://www.frenchgrill.vn/en/",
+      "source_category": "hotel-fine-dining",
+      "hotel_name": "JW Marriott Hanoi",
+      "raw_address": "8 Đỗ Đức Dục, Mễ Trì, Nam Từ Liêm, Hà Nội",
+      "raw_cuisine": "French / Fine Dining",
+      "raw_phone": "+84 24 3833 5588",
+      "raw_notes": "Voted best French fine dining in Vietnam; largest open kitchen in Hanoi. Repeatedly listed in MICHELIN Guide."
+    },
+    {
+      "name_official": "Akira Back",
+      "source_url": "http://www.jwmarriotthanoilife.com/en/dining/Akira-back-hanoi",
+      "source_category": "hotel-fine-dining",
+      "hotel_name": "JW Marriott Hanoi",
+      "raw_address": "8 Đỗ Đức Dục, Mễ Trì, Nam Từ Liêm, Hà Nội",
+      "raw_cuisine": "Modern Japanese / Korean-Japanese fusion",
+      "raw_phone": "+84 24 3833 5588",
+      "raw_notes": "Chef Akira Back's global concept; modern Japanese with Korean inflection."
+    },
+    {
+      "name_official": "Crystal Jade Palace",
+      "source_url": "https://www.marriott.com/en-us/hotels/hanjw-jw-marriott-hotel-hanoi/dining/",
+      "source_category": "hotel-fine-dining",
+      "hotel_name": "JW Marriott Hanoi",
+      "raw_address": "8 Đỗ Đức Dục, Mễ Trì, Nam Từ Liêm, Hà Nội",
+      "raw_cuisine": "Chinese / Cantonese",
+      "raw_phone": "+84 24 3833 5588",
+      "raw_notes": "Premium Cantonese with dim sum and seafood; well-regarded in Hanoi for Chinese business banquets."
+    },
+    {
+      "name_official": "The Hudson Rooms",
+      "source_url": "https://capellahotels.com/en/capella-hanoi/dining/hudson-rooms",
+      "source_category": "hotel-fine-dining",
+      "hotel_name": "Capella Hanoi",
+      "raw_address": "11 Lê Phụng Hiểu, Hoàn Kiếm, Hà Nội",
+      "raw_cuisine": "Oyster bar / Caviar / Cocktail bar",
+      "raw_phone": "+84 24 3987 8888",
+      "raw_notes": "1920s renaissance-inspired oyster bar by day, cocktail bar by night. Asia's 50 Best Bars 2024 Top 81."
+    }
+  ]
+}

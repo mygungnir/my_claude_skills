@@ -1,0 +1,28 @@
+{
+  "source": "pasgo",
+  "collected_at": "2026-05-15",
+  "notes": "PasGo の category URL（/ha-noi/nha-hang/<cuisine>）は SKILL の記述と違って 404 になる。実際は `/tim-kiem?search=...` または curated 記事（/kham-pha/...、/blog/...）経由で取る必要があった。下記は curated 記事 3 本（cao cấp / sang trọng / rooftop）から抽出。",
+  "url_lessons": {
+    "category_pattern_old_skill_doc": "/ha-noi/nha-hang/am-thuc-phap (404)",
+    "category_pattern_actual": "/tim-kiem?search=<cuisine_keyword> or /ha-noi/nha-hang/mon-au-23",
+    "best_source_for_curation": "curated articles under /kham-pha/ and /blog/"
+  },
+  "restaurants": [
+    {"name_official": "NIKUSHO Japanese Wagyu BBQ - Yên Phụ", "raw_address": "42 Yên Phụ, Ba Đình, Hà Nội", "raw_cuisine": "Japanese / Wagyu BBQ", "price_per_person_vnd": [800000, 1500000], "pasgo_slug": "nikusho-japanese-wagyu-bbq-yen-phu-5727", "raw_notes": "Private rooms, upscale Japanese design"},
+    {"name_official": "Kyoto Sachi Restaurant - Mạc Thái Tông", "raw_address": "29 Mạc Thái Tông, Yên Hòa, Cầu Giấy, Hà Nội", "raw_cuisine": "Japanese / Omakase & seafood", "price_per_person_vnd": [500000, 1000000], "pasgo_slug": "hai-san-nhat-ban-kyoto-sachi-mac-thai-tong-5767", "raw_notes": "10 private rooms"},
+    {"name_official": "Hatoyama - Lý Thường Kiệt", "raw_address": "13 Lý Thường Kiệt, Cửa Nam, Hoàn Kiếm, Hà Nội", "raw_cuisine": "Japanese", "price_per_person_vnd": [800000, 1000000], "pasgo_slug": "hatoyama-ly-thuong-kiet-3808", "raw_notes": "Japanese-style décor, private rooms; 5 branches in Hanoi"},
+    {"name_official": "Okii D Bát Sứ", "raw_address": "62 Bát Sứ, Hàng Bồ, Hoàn Kiếm, Hà Nội", "raw_cuisine": "Japanese / Omakase & Teppanyaki", "price_per_person_vnd": [800000, 2199000], "pasgo_slug": "okii-d-bat-su-4877", "raw_notes": "Wide menu range — lower bound 200K is for set lunch; dinner omakase starts ~800K"},
+    {"name_official": "Nuboko Sushi & Teppanyaki - Lý Thường Kiệt", "raw_address": "Floor 2, Hồng Hà Building, 25 Lý Thường Kiệt, Hoàn Kiếm, Hà Nội", "raw_cuisine": "Japanese / Teppanyaki & Omakase", "price_per_person_vnd": [800000, 1500000], "pasgo_slug": "nuboko-sushi-and-teppanyaki---ly-thuong-kiet-5647", "raw_notes": "Modern upscale Japanese; estimate based on tier"},
+    {"name_official": "Au Délice - Lê Văn Hưu", "raw_address": "27 Lê Văn Hưu, Hai Bà Trưng, Hà Nội", "raw_cuisine": "French", "price_per_person_vnd": [500000, 1000000], "pasgo_slug": "au-delice-le-van-huu-1434", "raw_notes": "French bistro"},
+    {"name_official": "Jacksons Steakhouse - Hai Bà Trưng", "raw_address": "23J Hai Bà Trưng, Hoàn Kiếm, Hà Nội", "raw_cuisine": "Steakhouse / European", "price_per_person_vnd": [670000, 700000], "pasgo_slug": "jacksons-steakhouse---ghi-dau-dang-cap-am-thuc-au-840", "raw_notes": null},
+    {"name_official": "San Dining - Cầu Gỗ", "raw_address": "2 Ngõ Cầu Gỗ, Hàng Bạc, Hoàn Kiếm, Hà Nội", "raw_cuisine": "Asian-European Fusion", "price_per_person_vnd": [600000, 1200000], "pasgo_slug": "san-dining-cau-go-5257", "raw_notes": "Romantic atmosphere, Old Quarter, near Hoan Kiem walking street; known for Blind Date program"},
+    {"name_official": "Cloud Nine Restaurant - Hàng Bè", "raw_address": "Floor 9, La Siesta Premium Hotel, 27 Hàng Bè, Hàng Bạc, Hoàn Kiếm, Hà Nội", "raw_cuisine": "European-Asian", "price_per_person_vnd": [600000, 1200000], "pasgo_slug": "cloud-nine-restaurant-hang-be-3860", "raw_notes": "Hotel-attached, F9 with city view"},
+    {"name_official": "Tim Ho Wan - L7 West Lake Hanoi", "raw_address": "Floor 6, L7 West Lake Hanoi By Lotte, 683 Lạc Long Quân, Phú Thượng, Tây Hồ, Hà Nội", "raw_cuisine": "Chinese / Dim Sum", "price_per_person_vnd": [500000, 800000], "pasgo_slug": "tim-ho-wan-l7-west-lake-hanoi-5704", "raw_notes": "Hong Kong dim sum global brand; West Lake view"},
+    {"name_official": "Layered - L7 West Lake Hanoi", "raw_address": "Floor 21, L7 West Lake Hanoi By Lotte, 683 Lạc Long Quân, Phú Thượng, Tây Hồ, Hà Nội", "raw_cuisine": "Fusion / Asian-European", "price_per_person_vnd": [700000, 1500000], "pasgo_slug": "layered-l7-west-lake-hanoi-5703", "raw_notes": "High-floor; West Lake panorama"},
+    {"name_official": "Red Bean Restaurant - Mã Mây", "raw_address": "94 Mã Mây, Hàng Buồm, La Siesta Classic Hotel, Hoàn Kiếm, Hà Nội", "raw_cuisine": "Asian-European", "price_per_person_vnd": [500000, 900000], "pasgo_slug": "red-bean-restaurant---ma-may-2839", "raw_notes": "Hotel restaurant in Old Quarter"},
+    {"name_official": "Moo Beef Steak - Trần Quốc Toản", "raw_address": "59A Trần Quốc Toản, Hoàn Kiếm, Hà Nội", "raw_cuisine": "Steakhouse / European", "price_per_person_vnd": [500000, 900000], "pasgo_slug": "moo-beef-steak---tran-quoc-toan-1275", "raw_notes": null},
+    {"name_official": "Ignite Sky Bar - Đường Thành", "raw_address": "Rooftop, Peridot Grand Luxury, 33 Đường Thành, Cửa Đông, Hoàn Kiếm, Hà Nội", "raw_cuisine": "Sky Bar / European-Asian", "price_per_person_vnd": [500000, 1000000], "pasgo_slug": "ignite-sky-bar-duong-thanh-4671", "raw_notes": "360-degree old quarter panorama"},
+    {"name_official": "Nhà hàng Olivine - Đường Thành", "raw_address": "Floor 11, Peridot Grand Luxury, 33 Đường Thành, Cửa Đông, Hoàn Kiếm, Hà Nội", "raw_cuisine": "European-Asian", "price_per_person_vnd": [600000, 1000000], "pasgo_slug": "nha-hang-olivine-duong-thanh-4670", "raw_notes": "F11 with Old Quarter view"},
+    {"name_official": "Ruby Sky Bar - Đào Duy Từ", "raw_address": "Floor 11-12, 58-60-62 Đào Duy Từ, Hoàn Kiếm, Hà Nội", "raw_cuisine": "Sky Bar / Western-Asian", "price_per_person_vnd": [600000, 1000000], "pasgo_slug": "ruby-sky-bar-dao-duy-tu-5796", "raw_notes": "Mid-tier rooftop; price for dining tier (full menu)"}
+  ]
+}
