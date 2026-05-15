@@ -1,0 +1,81 @@
+{
+  "generated_at": "2026-05-15",
+  "version": "0.2-wave2",
+  "notes": "schema.md のバリデーション規則に沿って、本リスト v0.1〜v0.2 から弾いたエントリ。理由とともに保持し、次回再実行時に再判定する。",
+  "entries": [
+    {
+      "name_official": "Quán Ăn Ngon",
+      "source": "veltra-jp-media",
+      "source_category": "tourist-favorite",
+      "address": "18 Phan Bội Châu, Hoàn Kiếm, Hà Nội",
+      "reason": "price_below_threshold",
+      "details": "VELTRA 代行予約対象店だが価格帯 ~200-400K/人で 50万ドン下限に届かない。tagging-guide.md で `casual-colleagues` + `japanese-guests` の代表例として明示。観光・カジュアル日本人来客向けの別リストに保持価値あり。",
+      "added_in_wave": 2
+    },
+    {
+      "name_official": "Pizza 4 P's (Lotte West Lake & 9 other Hanoi locations)",
+      "source": "veltra-jp-media",
+      "source_category": "casual-favorite",
+      "address": "5F, 272 Võ Chí Công, Tây Hồ, Hà Nội (Lotte West Lake)",
+      "reason": "price_below_threshold",
+      "details": "VELTRA 代行予約対象 + tagging-guide.md で `casual-colleagues` の代表例として明示。価格帯 ~200-400K/人で 50万ドン下限に届かない。日本人経営のためチェーン全体を `japanese_support: true` で扱えるが、本リスト目的（接待・高級）からは外れる。",
+      "added_in_wave": 2
+    },
+    {
+      "name_official": "Ashima Mushroom Hotpot",
+      "source": "veltra-jp-media",
+      "address": "182 Triệu Việt Vương, Hai Bà Trưng",
+      "reason": "price_borderline_concept_too_casual",
+      "details": "推定 300-500K/人で borderline。コンセプトが鍋＝賑やか系のため business / date 軸の本リストから外す。観光リスト or 同僚カジュアル軸の別リストで再評価。",
+      "added_in_wave": 2
+    },
+    {
+      "name_official": "Jade Moon - Lê Duẩn",
+      "source": "pasgo",
+      "address": "Floor 16, DOJI Tower, 5 Lê Duẩn, Ba Đình, Hà Nội",
+      "reason": "price_below_threshold",
+      "details": "PasGo 表示価格 400-600K/人で下限が 50万ドン未満。中華大宴会・large-group 軸では候補になるので、wave-3 で上位コースの価格を確認し、上限優先で再評価。",
+      "added_in_wave": 2
+    },
+    {
+      "name_official": "Citadel Skybar / Dusk Sky Bar / Majesty Skybar / Moonlight Sky Bar 等",
+      "source": "pasgo",
+      "reason": "bar_not_dining",
+      "details": "PasGo のルーフトップカテゴリで挙がるが、主体はカクテルバーで食事メニューが薄い／価格表示が drinks 中心。Old Quarter rooftop 群は `bars-and-rooftops` 別リストへ分離する設計に倒した方が運用しやすい。",
+      "added_in_wave": 2
+    },
+    {
+      "name_official": "Chả Cá Thăng Long",
+      "source": "michelin",
+      "source_category": "bib-gourmand",
+      "address": "6B Đường Thành, Cửa Đông, Hoàn Kiếm, Hà Nội",
+      "phone": "+84 24 38286007",
+      "reason": "price_below_threshold",
+      "details": "Bib Gourmand 価格帯（推定 ~15-25万ドン/人）が schema.md の `price_range_vnd_per_person[0] >= 500000` を満たさない。tagging-guide.md で `japanese-guests` 例として明記されているため、次フェーズで「観光・体験軸の別リスト」として保持を検討。",
+      "also_note": "SKILL.md 既知の落とし穴 #3「偽住所店舗」該当の店。公式サイト警告文の確認が必須。"
+    },
+    {
+      "name_official": "Vien Dining",
+      "source": "michelin",
+      "source_category": "selected",
+      "reason": "missing_required_fields",
+      "details": "address / district / lat / lng / phone が未取得のため、schema 必須フィールドを満たさず本リストに含めなかった。次の Phase で公式 SNS / Google Maps Place Search で番地特定が必要。"
+    },
+    {
+      "name_official": "Don Duck Old Quarter Restaurant",
+      "source": "michelin",
+      "source_category": "bib-gourmand-historic",
+      "address": "29 Bát Đàn, Hàng Bồ, Hoàn Kiếm",
+      "phone": "+84 983 559 506",
+      "reason": "delisted_in_2025",
+      "details": "2023/2024 は Bib Gourmand 入りだったが 2025 版で外れたため、michelin_status を bib-gourmand と書けない。次回更新時に PasGo / OpenTable 等の別ソースから再評価。"
+    },
+    {
+      "name_official": "Bún Chả Ta / Phở Gà Nguyệt / Mr. Bay Mien Tay / 他 Bib Gourmand 屋台系",
+      "source": "michelin",
+      "source_category": "bib-gourmand",
+      "reason": "out_of_scope_per_skill",
+      "details": "SKILL.md「対象外: 屋台、ローカル食堂、ファストフード、80万ドン未満の店」に該当。Michelin Bib Gourmand であってもこのリストの目的（接待・記念日・賓客向け中〜高級店）からは外れる。tagging-guide.md の japanese-guests 例として残す価値はあるので、別カテゴリ（観光・体験リスト）の作成は別 SKILL もしくは次フェーズで検討。"
+    }
+  ]
+}

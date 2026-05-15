@@ -1,0 +1,99 @@
+{
+  "source": "michelin",
+  "collected_at": "2026-05-15",
+  "guide_year": "2025",
+  "guide_url_seed": "https://guide.michelin.com/en/article/michelin-guide-ceremony/full-list-michelin-stars-michelin-guide-vietnam-2025",
+  "notes": "Michelin Vietnam 2026 ceremony is scheduled 2026-06-04; this is built from the 2025 edition. The official Michelin URL returned 403, so triangulated via Wikipedia + bestpricetravel.com + hafoodtours.com.",
+  "restaurants": [
+    {
+      "name_official": "Gia",
+      "source_url": "https://guide.michelin.com/en/ha-noi/ha-noi_2974158/restaurant/gia",
+      "source_category": "1-star",
+      "raw_address": "61 Văn Miếu, Đống Đa, Hà Nội",
+      "raw_cuisine": "Modern Vietnamese / Contemporary",
+      "raw_phone": "+84 896 682 996",
+      "raw_notes": "1-star 2023/2024/2025 consistent. Chef Sam Tran's contemporary Vietnamese tasting menu concept."
+    },
+    {
+      "name_official": "Tầm Vị",
+      "source_url": "https://guide.michelin.com/en/ha-noi/ha-noi_2974158/restaurant/tam-vi",
+      "source_category": "1-star",
+      "raw_address": "4B Yên Thế, Văn Miếu - Quốc Tử Giám, Ba Đình, Hà Nội",
+      "raw_cuisine": "Vietnamese / Northern home-style",
+      "raw_phone": "+84 96 632 31 31",
+      "raw_notes": "1-star 2023/2024/2025. Traditional Northern home-cooking in a refined French-colonial villa setting. Highly recommended for Japanese guests by Vietnam-resident Japanese media."
+    },
+    {
+      "name_official": "Hibana by Koki",
+      "source_url": "https://guide.michelin.com/en/ha-noi/ha-noi_2974158/restaurant/hibana-by-koki",
+      "source_category": "1-star",
+      "raw_address": "11 Lê Phụng Hiểu, Hoàn Kiếm, Hà Nội (inside Capella Hanoi)",
+      "raw_cuisine": "Japanese / Teppanyaki",
+      "raw_phone": "+84 24 3987 8888",
+      "raw_notes": "1-star 2023/2024/2025. High-end teppanyaki, 8-seat counter inside Capella Hanoi."
+    },
+    {
+      "name_official": "Lamai Garden",
+      "source_url": "https://guide.michelin.com/en/ha-noi/ha-noi_2974158/restaurant/lamai-garden",
+      "source_category": "green-star",
+      "raw_address": "36B Đệ Tam, Tứ Liên, Tây Hồ, Hà Nội",
+      "raw_cuisine": "Vietnamese / Farm-to-table / Plant-forward",
+      "raw_phone": "+84 961 676 448",
+      "raw_notes": "First Hanoi Green Star (2025). Farm-to-table sustainable Vietnamese using own garden ingredients. Note: street name needs verification — sources show variants 'Đệ Tam' vs 'Đệ Quai' — likely the former."
+    },
+    {
+      "name_official": "Chao Bản",
+      "source_url": "https://guide.michelin.com/en/ha-noi/ha-noi_2974158/restaurant/chao-ban",
+      "source_category": "bib-gourmand",
+      "raw_address": "98 Tô Ngọc Vân, Quảng An, Tây Hồ, Hà Nội",
+      "raw_cuisine": "Contemporary Vietnamese",
+      "raw_phone": "+84 24 3552 8028",
+      "raw_notes": "Bib Gourmand 2023/2024/2025. Modern Vietnamese in a designed space in expat-heavy Tay Ho."
+    },
+    {
+      "name_official": "The East - The Taste Of Indochine",
+      "source_url": "https://guide.michelin.com/en/ha-noi/ha-noi_2974158/restaurant/the-east",
+      "source_category": "bib-gourmand",
+      "raw_address": "5B Tống Duy Tân, Hoàn Kiếm, Hà Nội",
+      "raw_cuisine": "Northern Vietnamese / Indochine concept",
+      "raw_phone": "+84 963 733 797",
+      "raw_notes": "Bib Gourmand. Indochine-styled fine-ish dining concept on the Old Quarter's restaurant lane."
+    },
+    {
+      "name_official": "Luk Lak Vietnamese Restaurant",
+      "source_url": "https://guide.michelin.com/en/ha-noi/ha-noi_2974158/restaurant/luk-lak",
+      "source_category": "bib-gourmand",
+      "raw_address": "4A Lê Thánh Tông, Phan Chu Trinh, Hoàn Kiếm, Hà Nội",
+      "raw_cuisine": "Vietnamese / Home-style upmarket",
+      "raw_phone": "+84 943 143 686",
+      "raw_notes": "Bib Gourmand 2024/2025. Chef Mai with a polished take on Vietnamese home cooking inside a colonial-era setting."
+    },
+    {
+      "name_official": "Chả Cá Thăng Long",
+      "source_url": "https://guide.michelin.com/en/ha-noi/ha-noi_2974158/restaurant/cha-ca-thang-long",
+      "source_category": "bib-gourmand",
+      "raw_address": "6B Đường Thành, Cửa Đông, Hoàn Kiếm, Hà Nội",
+      "raw_cuisine": "Vietnamese / Cha Ca specialty",
+      "raw_phone": "+84 24 38286007",
+      "raw_notes": "Bib Gourmand. Iconic Hanoi cha ca specialist; popular with Japanese visitors. Per SKILL guidance: confirm fake-address-warning text on official site before publishing."
+    },
+    {
+      "name_official": "Backstage",
+      "source_url": "https://capellahotels.com/en/capella-hanoi/dining/backstage",
+      "source_category": "selected",
+      "raw_address": "11 Lê Phụng Hiểu, Hoàn Kiếm, Hà Nội (inside Capella Hanoi)",
+      "raw_cuisine": "Northern Vietnamese / Tasting menu",
+      "raw_phone": "+84 24 3987 8888",
+      "raw_notes": "MICHELIN Selected. 7-course tasting menu showcasing Northern Vietnam; opera-house aesthetic murals inside Capella Hanoi."
+    },
+    {
+      "name_official": "Vien Dining",
+      "source_url": "https://guide.michelin.com/en/ha-noi/ha-noi_2974158/restaurant/vien-dining",
+      "source_category": "selected",
+      "raw_address": "Hanoi (specific street address needs verification)",
+      "raw_cuisine": "Traditional and contemporary Vietnamese",
+      "raw_phone": null,
+      "raw_notes": "MICHELIN Selected. Listed in 2025 guide. Address requires Phase-2 verification before final inclusion."
+    }
+  ]
+}

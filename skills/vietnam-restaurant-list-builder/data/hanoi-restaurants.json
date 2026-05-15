@@ -1,0 +1,2376 @@
+{
+  "metadata": {
+    "last_updated": "2026-05-15",
+    "total_count": 40,
+    "sources_used": [
+      "hotels",
+      "michelin",
+      "pasgo",
+      "veltra-jp-media"
+    ],
+    "version": "0.2-wave2",
+    "notes": "Wave 1 (Michelin + 5-star hotels) + Wave 2 (PasGo curated upscale + VELTRA Japanese-resident proxy targets). PasGo `/ha-noi/nha-hang/<cuisine>` URL pattern in sources.md is OUTDATED — replaced by curated articles under /kham-pha/. All new entries have NEEDS_PLACES_API_LOOKUP flag in notes pending Google Places API integration."
+  },
+  "restaurants": [
+    {
+      "id": "gia",
+      "name_official": "Gia",
+      "name_normalized": "gia",
+      "name_alt": [
+        "ジア"
+      ],
+      "address": "61 Văn Miếu, Đống Đa, Hà Nội",
+      "district": "Đống Đa",
+      "latitude": 21.0259,
+      "longitude": 105.8367,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": "+84 896 682 996",
+      "phone_zalo_compatible": true,
+      "website": null,
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 4,
+      "price_range_vnd_per_person": [
+        2000000,
+        3500000
+      ],
+      "cuisine": [
+        "Modern Vietnamese",
+        "Fusion"
+      ],
+      "scenes": [
+        "business",
+        "date",
+        "japanese-guests"
+      ],
+      "ambience": [
+        "fine-dining",
+        "modern"
+      ],
+      "has_view": false,
+      "japanese_support": false,
+      "michelin_status": "1-star",
+      "is_hotel_restaurant": false,
+      "hotel_name": null,
+      "booking_channels": {
+        "phone": "+84 896 682 996",
+        "official_website_booking": null,
+        "pasgo_url": null,
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": "https://zalo.me/84896682996"
+      },
+      "sources": [
+        "michelin"
+      ],
+      "notes": "Michelin 1-star (2023/2024/2025 連続)。Chef Sam Tran のコンテンポラリー・ベトナミーズ tasting menu。記念日・接待・日本からの賓客向けに最有力。",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "tam-vi",
+      "name_official": "Tầm Vị",
+      "name_normalized": "tam vi",
+      "name_alt": [
+        "タムヴィー",
+        "タム ビ"
+      ],
+      "address": "4B Yên Thế, Văn Miếu - Quốc Tử Giám, Ba Đình, Hà Nội",
+      "district": "Ba Đình",
+      "latitude": 21.0307,
+      "longitude": 105.8367,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": "+84 966 323 131",
+      "phone_zalo_compatible": true,
+      "website": null,
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 3,
+      "price_range_vnd_per_person": [
+        800000,
+        1500000
+      ],
+      "cuisine": [
+        "Vietnamese"
+      ],
+      "scenes": [
+        "business",
+        "japanese-guests",
+        "date"
+      ],
+      "ambience": [
+        "traditional",
+        "private-room"
+      ],
+      "has_view": false,
+      "japanese_support": false,
+      "michelin_status": "1-star",
+      "is_hotel_restaurant": false,
+      "hotel_name": null,
+      "booking_channels": {
+        "phone": "+84 966 323 131",
+        "official_website_booking": null,
+        "pasgo_url": null,
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": "https://zalo.me/84966323131"
+      },
+      "sources": [
+        "michelin",
+        "veltra-jp-media"
+      ],
+      "notes": "Michelin 1-star (2023/2024/2025 連続)。仏領コロニアル・ヴィラの落ち着いた空間で北部家庭料理。在住日本人メディアで「日本からの来客向け接待」「ベトナム伝統食文化体験」として頻出。 / VELTRA 代行予約対象店。日本人接待での圧倒的鉄板。",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "hibana-by-koki",
+      "name_official": "Hibana by Koki",
+      "name_normalized": "hibana by koki",
+      "name_alt": [
+        "ヒバナ・バイ・コウキ",
+        "火花",
+        "ヒバナ バイ コウキ"
+      ],
+      "address": "11 Lê Phụng Hiểu, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "latitude": 21.0289,
+      "longitude": 105.8542,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": "+84 24 3987 8888",
+      "phone_zalo_compatible": false,
+      "website": "https://capellahotels.com/en/capella-hanoi/dining",
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 4,
+      "price_range_vnd_per_person": [
+        3500000,
+        6000000
+      ],
+      "cuisine": [
+        "Japanese"
+      ],
+      "scenes": [
+        "business",
+        "japanese-guests",
+        "date"
+      ],
+      "ambience": [
+        "fine-dining",
+        "modern"
+      ],
+      "has_view": false,
+      "japanese_support": true,
+      "michelin_status": "1-star",
+      "is_hotel_restaurant": true,
+      "hotel_name": "Capella Hanoi",
+      "booking_channels": {
+        "phone": "+84 24 3987 8888",
+        "official_website_booking": "https://capellahotels.com/en/capella-hanoi/dining",
+        "pasgo_url": null,
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "michelin",
+        "hotels",
+        "veltra-jp-media"
+      ],
+      "notes": "Michelin 1-star。Capella Hanoi 内の 8 席カウンター鉄板焼。日本人シェフ。ハイエンドな日本からの賓客接待や記念日コースに最上位の選択肢。 / VELTRA 代行予約対象店。12 歳未満不可。",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "lamai-garden",
+      "name_official": "Lamai Garden",
+      "name_normalized": "lamai garden",
+      "name_alt": [
+        "ラマイ・ガーデン"
+      ],
+      "address": "Tứ Liên, Tây Hồ, Hà Nội",
+      "district": "Tây Hồ",
+      "latitude": 21.0689,
+      "longitude": 105.8364,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": "+84 961 676 448",
+      "phone_zalo_compatible": true,
+      "website": null,
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 3,
+      "price_range_vnd_per_person": [
+        800000,
+        1500000
+      ],
+      "cuisine": [
+        "Modern Vietnamese",
+        "Vegetarian"
+      ],
+      "scenes": [
+        "date",
+        "japanese-guests"
+      ],
+      "ambience": [
+        "modern",
+        "garden"
+      ],
+      "has_view": false,
+      "japanese_support": false,
+      "michelin_status": null,
+      "is_hotel_restaurant": false,
+      "hotel_name": null,
+      "booking_channels": {
+        "phone": "+84 961 676 448",
+        "official_website_booking": null,
+        "pasgo_url": null,
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": "https://zalo.me/84961676448"
+      },
+      "sources": [
+        "michelin"
+      ],
+      "notes": "2025年に初めてのハノイ Michelin Green Star を獲得。サステナブル農家直送・プラントフォワード。Tay Ho の静かなガーデンレストラン。michelin_status は星付きカテゴリではないため null。グリーンスター獲得情報は notes に保持。番地（'Đệ Tam' vs 'Đệ Quai'）はソース間で揺れあり要再確認。",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "chao-ban",
+      "name_official": "Chao Bản",
+      "name_normalized": "chao ban",
+      "name_alt": [
+        "チャオバン"
+      ],
+      "address": "98 Tô Ngọc Vân, Quảng An, Tây Hồ, Hà Nội",
+      "district": "Tây Hồ",
+      "latitude": 21.0608,
+      "longitude": 105.8211,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": "+84 24 3552 8028",
+      "phone_zalo_compatible": false,
+      "website": null,
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 3,
+      "price_range_vnd_per_person": [
+        600000,
+        1100000
+      ],
+      "cuisine": [
+        "Modern Vietnamese"
+      ],
+      "scenes": [
+        "casual-colleagues",
+        "japanese-guests"
+      ],
+      "ambience": [
+        "modern"
+      ],
+      "has_view": false,
+      "japanese_support": false,
+      "michelin_status": "bib-gourmand",
+      "is_hotel_restaurant": false,
+      "hotel_name": null,
+      "booking_channels": {
+        "phone": "+84 24 3552 8028",
+        "official_website_booking": null,
+        "pasgo_url": null,
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "michelin",
+        "veltra-jp-media"
+      ],
+      "notes": "Michelin Bib Gourmand (2023/2024/2025)。在留外国人の多い Tay Ho で洗練された現代ベトナム料理。価格帯は Bib Gourmand 想定だが上振れすることもあり、要再確認。 / VELTRA 代行予約対象店。日本人会食での使用実績多数。",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "the-east-indochine",
+      "name_official": "The East - The Taste Of Indochine",
+      "name_normalized": "the east the taste of indochine",
+      "name_alt": [
+        "ジ・イースト"
+      ],
+      "address": "5B Tống Duy Tân, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "latitude": 21.0292,
+      "longitude": 105.8472,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": "+84 963 733 797",
+      "phone_zalo_compatible": true,
+      "website": "https://theeast.vn/",
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 3,
+      "price_range_vnd_per_person": [
+        500000,
+        1000000
+      ],
+      "cuisine": [
+        "Vietnamese"
+      ],
+      "scenes": [
+        "japanese-guests",
+        "casual-colleagues",
+        "date"
+      ],
+      "ambience": [
+        "traditional",
+        "modern"
+      ],
+      "has_view": false,
+      "japanese_support": false,
+      "michelin_status": "bib-gourmand",
+      "is_hotel_restaurant": false,
+      "hotel_name": null,
+      "booking_channels": {
+        "phone": "+84 963 733 797",
+        "official_website_booking": "https://theeast.vn/reservation",
+        "pasgo_url": null,
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": "https://www.facebook.com/Theeast.vn/",
+        "facebook_messenger": null,
+        "instagram_url": "https://www.instagram.com/theeast.vn/",
+        "zalo_url": "https://zalo.me/84963733797"
+      },
+      "sources": [
+        "michelin"
+      ],
+      "notes": "Michelin Bib Gourmand。旧市街の Tống Duy Tân（飲食店通り）の Indochine コンセプト北部ベトナム料理。 / [2026-05-15] booking-skill 補完: website, official_website_booking, facebook_url, instagram_url",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "luk-lak",
+      "name_official": "Luk Lak Vietnamese Restaurant",
+      "name_normalized": "luk lak vietnamese restaurant",
+      "name_alt": [
+        "ルクラック",
+        "ルック ラック"
+      ],
+      "address": "4A Lê Thánh Tông, Phan Chu Trinh, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "latitude": 21.0254,
+      "longitude": 105.8581,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": "+84 943 143 686",
+      "phone_zalo_compatible": true,
+      "website": null,
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 3,
+      "price_range_vnd_per_person": [
+        700000,
+        1300000
+      ],
+      "cuisine": [
+        "Vietnamese"
+      ],
+      "scenes": [
+        "business",
+        "japanese-guests",
+        "date"
+      ],
+      "ambience": [
+        "traditional",
+        "private-room"
+      ],
+      "has_view": false,
+      "japanese_support": false,
+      "michelin_status": "bib-gourmand",
+      "is_hotel_restaurant": false,
+      "hotel_name": null,
+      "booking_channels": {
+        "phone": "+84 943 143 686",
+        "official_website_booking": null,
+        "pasgo_url": null,
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": "https://zalo.me/84943143686"
+      },
+      "sources": [
+        "michelin",
+        "veltra-jp-media"
+      ],
+      "notes": "Michelin Bib Gourmand (2024/2025)。Chef Mai のフレンチコロニアル空間での上質なベトナム家庭料理。日本人接待・出張者ディナーで使いやすい。 / VELTRA 代行予約対象店。シェフは 5 つ星ホテル 25 年勤務。",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "backstage-capella",
+      "name_official": "Backstage",
+      "name_normalized": "backstage",
+      "name_alt": [
+        "バックステージ",
+        "バックステージ カペラハノイ"
+      ],
+      "address": "11 Lê Phụng Hiểu, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "latitude": 21.0289,
+      "longitude": 105.8542,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": "+84 24 3987 8888",
+      "phone_zalo_compatible": false,
+      "website": "https://capellahotels.com/en/capella-hanoi/dining/backstage",
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 4,
+      "price_range_vnd_per_person": [
+        2000000,
+        3500000
+      ],
+      "cuisine": [
+        "Vietnamese",
+        "Modern Vietnamese"
+      ],
+      "scenes": [
+        "business",
+        "date",
+        "japanese-guests"
+      ],
+      "ambience": [
+        "fine-dining",
+        "modern"
+      ],
+      "has_view": false,
+      "japanese_support": false,
+      "michelin_status": "selected",
+      "is_hotel_restaurant": true,
+      "hotel_name": "Capella Hanoi",
+      "booking_channels": {
+        "phone": "+84 24 3987 8888",
+        "official_website_booking": "https://capellahotels.com/en/capella-hanoi/dining/backstage",
+        "pasgo_url": null,
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "michelin",
+        "hotels",
+        "veltra-jp-media"
+      ],
+      "notes": "Michelin Selected。Capella Hanoi 内のオペラハウス・テーマ空間で 7-course 北部ベトナム料理 tasting menu。記念日・特別な接待向け。 / VELTRA 代行予約対象店。Smart casual、max 4 名／日。",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "le-beaulieu",
+      "name_official": "Le Beaulieu",
+      "name_normalized": "le beaulieu",
+      "name_alt": [
+        "ル・ボリュー"
+      ],
+      "address": "15 Ngô Quyền, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "latitude": 21.0259,
+      "longitude": 105.8556,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": "+84 24 3826 6919",
+      "phone_zalo_compatible": false,
+      "website": "https://www.sofitel-legend-metropole-hanoi.com/dining/le-beaulieu/",
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 4,
+      "price_range_vnd_per_person": [
+        2500000,
+        5000000
+      ],
+      "cuisine": [
+        "French"
+      ],
+      "scenes": [
+        "business",
+        "date",
+        "japanese-guests"
+      ],
+      "ambience": [
+        "fine-dining",
+        "traditional"
+      ],
+      "has_view": false,
+      "japanese_support": false,
+      "michelin_status": null,
+      "is_hotel_restaurant": true,
+      "hotel_name": "Sofitel Legend Metropole Hanoi",
+      "booking_channels": {
+        "phone": "+84 24 3826 6919",
+        "official_website_booking": "https://www.sofitel-legend-metropole-hanoi.com/dining/le-beaulieu/",
+        "pasgo_url": null,
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "hotels"
+      ],
+      "notes": "1901 創業、ベトナム最古の現役レストランと言われる Sofitel Metropole の旗艦仏料理。改装後リオープン。接待・記念日の鉄板。",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "spices-garden-metropole",
+      "name_official": "Spices Garden",
+      "name_normalized": "spices garden",
+      "name_alt": [
+        "スパイスガーデン"
+      ],
+      "address": "15 Ngô Quyền, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "latitude": 21.0259,
+      "longitude": 105.8556,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": "+84 24 3826 6919",
+      "phone_zalo_compatible": false,
+      "website": "https://www.sofitel-legend-metropole-hanoi.com/dining/spice-garden/",
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 3,
+      "price_range_vnd_per_person": [
+        1200000,
+        2500000
+      ],
+      "cuisine": [
+        "Vietnamese"
+      ],
+      "scenes": [
+        "business",
+        "japanese-guests",
+        "date"
+      ],
+      "ambience": [
+        "fine-dining",
+        "traditional",
+        "garden"
+      ],
+      "has_view": false,
+      "japanese_support": false,
+      "michelin_status": null,
+      "is_hotel_restaurant": true,
+      "hotel_name": "Sofitel Legend Metropole Hanoi",
+      "booking_channels": {
+        "phone": "+84 24 3826 6919",
+        "official_website_booking": "https://www.sofitel-legend-metropole-hanoi.com/dining/spice-garden/",
+        "pasgo_url": null,
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "hotels"
+      ],
+      "notes": "Sofitel Metropole 内のリファインド・ベトナミーズ。2023 改装。日本からの賓客に「ホテル併設の安心感 + ベトナム文化体験」として提案しやすい。",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "angelina-metropole",
+      "name_official": "Angelina",
+      "name_normalized": "angelina",
+      "name_alt": [
+        "アンジェリーナ"
+      ],
+      "address": "15 Ngô Quyền, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "latitude": 21.0259,
+      "longitude": 105.8556,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": "+84 24 3826 6919",
+      "phone_zalo_compatible": false,
+      "website": "https://sofitel.accor.com/en/hotels/1555/R002.restaurant.html",
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 4,
+      "price_range_vnd_per_person": [
+        1500000,
+        3500000
+      ],
+      "cuisine": [
+        "Mediterranean",
+        "Steakhouse",
+        "Seafood"
+      ],
+      "scenes": [
+        "business",
+        "date"
+      ],
+      "ambience": [
+        "fine-dining",
+        "modern"
+      ],
+      "has_view": false,
+      "japanese_support": false,
+      "michelin_status": null,
+      "is_hotel_restaurant": true,
+      "hotel_name": "Sofitel Legend Metropole Hanoi",
+      "booking_channels": {
+        "phone": "+84 24 3826 6919",
+        "official_website_booking": "https://sofitel.accor.com/en/hotels/1555/R002.restaurant.html",
+        "pasgo_url": null,
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "hotels"
+      ],
+      "notes": "ハノイ初の Habanos Lounge（シガーバー併設）。オイスター・ロブスター・ワギュウ中心。男性接待・葉巻好きの賓客向き。",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "top-of-hanoi",
+      "name_official": "Top of Hanoi",
+      "name_normalized": "top of hanoi",
+      "name_alt": [
+        "トップ・オブ・ハノイ"
+      ],
+      "address": "65F, Lotte Hotel Hanoi, 54 Liễu Giai, Cống Vị, Ba Đình, Hà Nội",
+      "district": "Ba Đình",
+      "latitude": 21.0331,
+      "longitude": 105.812,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": "+84 24 3333 1000",
+      "phone_zalo_compatible": false,
+      "website": "https://www.lottehotel.com/hanoi-hotel/en/dining/restaurant-top-of-hanoi",
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 3,
+      "price_range_vnd_per_person": [
+        1000000,
+        2500000
+      ],
+      "cuisine": [
+        "Steakhouse",
+        "Mediterranean",
+        "Fusion"
+      ],
+      "scenes": [
+        "date",
+        "japanese-guests",
+        "business"
+      ],
+      "ambience": [
+        "rooftop",
+        "view",
+        "modern",
+        "fine-dining"
+      ],
+      "has_view": true,
+      "japanese_support": false,
+      "michelin_status": null,
+      "is_hotel_restaurant": true,
+      "hotel_name": "Lotte Hotel Hanoi",
+      "booking_channels": {
+        "phone": "+84 24 3333 1000",
+        "official_website_booking": "https://www.lottehotel.com/hanoi-hotel/en/dining/restaurant-top-of-hanoi",
+        "pasgo_url": null,
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": "https://www.facebook.com/topofhanoi/",
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "hotels"
+      ],
+      "notes": "Lotte 65F、ハノイ最高層ルーフトップ。360° 夜景。Smart casual ドレスコード。記念日・夜景デート・接待全方位で評価が高い（tagging-guide.md でも date / view の代表例）。",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "french-grill-jw",
+      "name_official": "French Grill by Jean-François Nulli",
+      "name_normalized": "french grill by jean francois nulli",
+      "name_alt": [
+        "フレンチグリル"
+      ],
+      "address": "8 Đỗ Đức Dục, Mễ Trì, Nam Từ Liêm, Hà Nội",
+      "district": "Nam Từ Liêm",
+      "latitude": 21.0089,
+      "longitude": 105.7799,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": "+84 24 3833 5588",
+      "phone_zalo_compatible": false,
+      "website": "https://www.frenchgrill.vn/en/",
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 4,
+      "price_range_vnd_per_person": [
+        2000000,
+        4500000
+      ],
+      "cuisine": [
+        "French"
+      ],
+      "scenes": [
+        "business",
+        "date",
+        "japanese-guests"
+      ],
+      "ambience": [
+        "fine-dining",
+        "modern",
+        "private-room"
+      ],
+      "has_view": false,
+      "japanese_support": false,
+      "michelin_status": null,
+      "is_hotel_restaurant": true,
+      "hotel_name": "JW Marriott Hanoi",
+      "booking_channels": {
+        "phone": "+84 24 3833 5588",
+        "official_website_booking": "https://www.frenchgrill.vn/en/",
+        "pasgo_url": null,
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "hotels"
+      ],
+      "notes": "JW Marriott の旗艦仏料理。シェフ Jean-François Nulli。ハノイ最大級のオープンキッチン。Vietnam ベスト・フレンチ・ファインダイニング常連。",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "akira-back-hanoi",
+      "name_official": "Akira Back Hanoi",
+      "name_normalized": "akira back hanoi",
+      "name_alt": [
+        "アキラ・バック"
+      ],
+      "address": "8 Đỗ Đức Dục, Mễ Trì, Nam Từ Liêm, Hà Nội",
+      "district": "Nam Từ Liêm",
+      "latitude": 21.0089,
+      "longitude": 105.7799,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": "+84 24 3833 5588",
+      "phone_zalo_compatible": false,
+      "website": "http://www.jwmarriotthanoilife.com/en/dining/Akira-back-hanoi",
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 4,
+      "price_range_vnd_per_person": [
+        1800000,
+        3500000
+      ],
+      "cuisine": [
+        "Japanese",
+        "Korean",
+        "Fusion"
+      ],
+      "scenes": [
+        "business",
+        "date",
+        "japanese-guests"
+      ],
+      "ambience": [
+        "fine-dining",
+        "modern"
+      ],
+      "has_view": false,
+      "japanese_support": true,
+      "michelin_status": null,
+      "is_hotel_restaurant": true,
+      "hotel_name": "JW Marriott Hanoi",
+      "booking_channels": {
+        "phone": "+84 24 3833 5588",
+        "official_website_booking": "http://www.jwmarriotthanoilife.com/en/dining/Akira-back-hanoi",
+        "pasgo_url": null,
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "hotels"
+      ],
+      "notes": "Chef Akira Back のグローバルブランド。モダンジャパニーズ × 韓国料理融合。日本からの賓客にも違和感なく出せる「日本人シェフ系プレミアム」枠。",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "crystal-jade-palace-jw",
+      "name_official": "Crystal Jade Palace",
+      "name_normalized": "crystal jade palace",
+      "name_alt": [
+        "クリスタル・ジェイド・パレス",
+        "翡翠"
+      ],
+      "address": "8 Đỗ Đức Dục, Mễ Trì, Nam Từ Liêm, Hà Nội",
+      "district": "Nam Từ Liêm",
+      "latitude": 21.0089,
+      "longitude": 105.7799,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": "+84 24 3833 5588",
+      "phone_zalo_compatible": false,
+      "website": "https://www.marriott.com/en-us/hotels/hanjw-jw-marriott-hotel-hanoi/dining/",
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 3,
+      "price_range_vnd_per_person": [
+        1000000,
+        2500000
+      ],
+      "cuisine": [
+        "Chinese"
+      ],
+      "scenes": [
+        "business",
+        "large-group",
+        "japanese-guests"
+      ],
+      "ambience": [
+        "fine-dining",
+        "private-room"
+      ],
+      "has_view": false,
+      "japanese_support": false,
+      "michelin_status": null,
+      "is_hotel_restaurant": true,
+      "hotel_name": "JW Marriott Hanoi",
+      "booking_channels": {
+        "phone": "+84 24 3833 5588",
+        "official_website_booking": "https://www.marriott.com/en-us/hotels/hanjw-jw-marriott-hotel-hanoi/dining/",
+        "pasgo_url": null,
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "hotels"
+      ],
+      "notes": "JW Marriott の高級広東料理ブランド。大人数（10名〜）の中国式宴席・接待向け。個室複数。",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "the-hudson-rooms",
+      "name_official": "The Hudson Rooms",
+      "name_normalized": "the hudson rooms",
+      "name_alt": [
+        "ハドソン・ルームズ"
+      ],
+      "address": "11 Lê Phụng Hiểu, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "latitude": 21.0289,
+      "longitude": 105.8542,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": "+84 24 3987 8888",
+      "phone_zalo_compatible": false,
+      "website": "https://capellahotels.com/en/capella-hanoi/dining/hudson-rooms",
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 4,
+      "price_range_vnd_per_person": [
+        1200000,
+        3000000
+      ],
+      "cuisine": [
+        "Seafood",
+        "Mediterranean"
+      ],
+      "scenes": [
+        "date",
+        "casual-colleagues",
+        "business"
+      ],
+      "ambience": [
+        "fine-dining",
+        "modern"
+      ],
+      "has_view": false,
+      "japanese_support": false,
+      "michelin_status": null,
+      "is_hotel_restaurant": true,
+      "hotel_name": "Capella Hanoi",
+      "booking_channels": {
+        "phone": "+84 24 3987 8888",
+        "official_website_booking": "https://capellahotels.com/en/capella-hanoi/dining/hudson-rooms",
+        "pasgo_url": null,
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "hotels"
+      ],
+      "notes": "Capella Hanoi 内、1920s ニューヨーク renaissance テーマのオイスター/キャビアバー & カクテルバー。Asia's 50 Best Bars 2024 Top 81。デート・食前/食後酒・カジュアル接待。",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "nikusho-yen-phu",
+      "name_official": "NIKUSHO Japanese Wagyu BBQ",
+      "name_normalized": "nikusho japanese wagyu bbq",
+      "name_alt": [
+        "ニクショー"
+      ],
+      "address": "42 Yên Phụ, Ba Đình, Hà Nội",
+      "district": "Ba Đình",
+      "latitude": 21.0494,
+      "longitude": 105.8463,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": null,
+      "phone_zalo_compatible": null,
+      "website": null,
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 3,
+      "price_range_vnd_per_person": [
+        800000,
+        1500000
+      ],
+      "cuisine": [
+        "Japanese",
+        "Steakhouse"
+      ],
+      "scenes": [
+        "business",
+        "japanese-guests",
+        "casual-colleagues"
+      ],
+      "ambience": [
+        "fine-dining",
+        "modern",
+        "private-room"
+      ],
+      "has_view": false,
+      "japanese_support": true,
+      "michelin_status": null,
+      "is_hotel_restaurant": false,
+      "hotel_name": null,
+      "booking_channels": {
+        "phone": null,
+        "official_website_booking": null,
+        "pasgo_url": "https://pasgo.vn/nha-hang/nikusho-japanese-wagyu-bbq-yen-phu-5727",
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "pasgo"
+      ],
+      "notes": "Wagyu 専門の日本式焼肉。個室あり、上品な日本ライク内装。PasGo 高級カテゴリ常連。NEEDS_PLACES_API_LOOKUP",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "kyoto-sachi-mac-thai-tong",
+      "name_official": "Kyoto Sachi Restaurant",
+      "name_normalized": "kyoto sachi restaurant",
+      "name_alt": [
+        "京都・幸",
+        "キョウト・サチ"
+      ],
+      "address": "29 Mạc Thái Tông, Yên Hòa, Cầu Giấy, Hà Nội",
+      "district": "Cầu Giấy",
+      "latitude": 21.026,
+      "longitude": 105.796,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": null,
+      "phone_zalo_compatible": null,
+      "website": null,
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 3,
+      "price_range_vnd_per_person": [
+        500000,
+        1000000
+      ],
+      "cuisine": [
+        "Japanese",
+        "Seafood"
+      ],
+      "scenes": [
+        "business",
+        "japanese-guests"
+      ],
+      "ambience": [
+        "fine-dining",
+        "private-room"
+      ],
+      "has_view": false,
+      "japanese_support": true,
+      "michelin_status": null,
+      "is_hotel_restaurant": false,
+      "hotel_name": null,
+      "booking_channels": {
+        "phone": null,
+        "official_website_booking": null,
+        "pasgo_url": "https://pasgo.vn/nha-hang/hai-san-nhat-ban-kyoto-sachi-mac-thai-tong-5767",
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "pasgo"
+      ],
+      "notes": "Omakase 中心の日本食。個室 10 室で接待・少人数会食に強い。NEEDS_PLACES_API_LOOKUP",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "hatoyama-ly-thuong-kiet",
+      "name_official": "Hatoyama",
+      "name_normalized": "hatoyama",
+      "name_alt": [
+        "鳩山",
+        "ハトヤマ"
+      ],
+      "address": "13 Lý Thường Kiệt, Cửa Nam, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "latitude": 21.0259,
+      "longitude": 105.8487,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": null,
+      "phone_zalo_compatible": null,
+      "website": null,
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 3,
+      "price_range_vnd_per_person": [
+        800000,
+        1000000
+      ],
+      "cuisine": [
+        "Japanese"
+      ],
+      "scenes": [
+        "business",
+        "japanese-guests",
+        "casual-colleagues"
+      ],
+      "ambience": [
+        "traditional",
+        "private-room"
+      ],
+      "has_view": false,
+      "japanese_support": true,
+      "michelin_status": null,
+      "is_hotel_restaurant": false,
+      "hotel_name": null,
+      "booking_channels": {
+        "phone": null,
+        "official_website_booking": null,
+        "pasgo_url": "https://pasgo.vn/nha-hang/hatoyama-ly-thuong-kiet-3808",
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "pasgo"
+      ],
+      "notes": "ハノイで 5 店展開する老舗日本料理。和風内装、個室あり。Lý Thường Kiệt 本店は接待利用しやすい立地。NEEDS_PLACES_API_LOOKUP",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "okii-d-bat-su",
+      "name_official": "Okii D Bát Sứ",
+      "name_normalized": "okii d bat su",
+      "name_alt": [
+        "オキイ・ディー"
+      ],
+      "address": "62 Bát Sứ, Hàng Bồ, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "latitude": 21.0349,
+      "longitude": 105.8489,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": null,
+      "phone_zalo_compatible": null,
+      "website": null,
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 4,
+      "price_range_vnd_per_person": [
+        800000,
+        2200000
+      ],
+      "cuisine": [
+        "Japanese"
+      ],
+      "scenes": [
+        "business",
+        "japanese-guests",
+        "date"
+      ],
+      "ambience": [
+        "fine-dining",
+        "modern"
+      ],
+      "has_view": false,
+      "japanese_support": true,
+      "michelin_status": null,
+      "is_hotel_restaurant": false,
+      "hotel_name": null,
+      "booking_channels": {
+        "phone": null,
+        "official_website_booking": null,
+        "pasgo_url": "https://pasgo.vn/nha-hang/okii-d-bat-su-4877",
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "pasgo"
+      ],
+      "notes": "Old Quarter のオマカセ＆鉄板焼。価格帯は幅広だが dinner omakase は 80 万ドン〜。NEEDS_PLACES_API_LOOKUP",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "nuboko-ly-thuong-kiet",
+      "name_official": "Nuboko Sushi & Teppanyaki",
+      "name_normalized": "nuboko sushi and teppanyaki",
+      "name_alt": [
+        "ヌボコ"
+      ],
+      "address": "Floor 2, Hồng Hà Building, 25 Lý Thường Kiệt, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "latitude": 21.0259,
+      "longitude": 105.8487,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": null,
+      "phone_zalo_compatible": null,
+      "website": null,
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 4,
+      "price_range_vnd_per_person": [
+        800000,
+        1500000
+      ],
+      "cuisine": [
+        "Japanese"
+      ],
+      "scenes": [
+        "business",
+        "japanese-guests",
+        "date"
+      ],
+      "ambience": [
+        "fine-dining",
+        "modern"
+      ],
+      "has_view": false,
+      "japanese_support": true,
+      "michelin_status": null,
+      "is_hotel_restaurant": false,
+      "hotel_name": null,
+      "booking_channels": {
+        "phone": null,
+        "official_website_booking": null,
+        "pasgo_url": "https://pasgo.vn/nha-hang/nuboko-sushi-and-teppanyaki---ly-thuong-kiet-5647",
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "pasgo"
+      ],
+      "notes": "プレミアム寿司＆鉄板焼。モダンな日本ライク空間。価格帯は推定。NEEDS_PLACES_API_LOOKUP",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "au-delice-le-van-huu",
+      "name_official": "Au Délice",
+      "name_normalized": "au delice",
+      "name_alt": [
+        "オー・デリス"
+      ],
+      "address": "27 Lê Văn Hưu, Hai Bà Trưng, Hà Nội",
+      "district": "Hai Bà Trưng",
+      "latitude": 21.0179,
+      "longitude": 105.8534,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": null,
+      "phone_zalo_compatible": null,
+      "website": null,
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 3,
+      "price_range_vnd_per_person": [
+        500000,
+        1000000
+      ],
+      "cuisine": [
+        "French"
+      ],
+      "scenes": [
+        "date",
+        "business",
+        "casual-colleagues"
+      ],
+      "ambience": [
+        "fine-dining",
+        "traditional"
+      ],
+      "has_view": false,
+      "japanese_support": false,
+      "michelin_status": null,
+      "is_hotel_restaurant": false,
+      "hotel_name": null,
+      "booking_channels": {
+        "phone": null,
+        "official_website_booking": null,
+        "pasgo_url": "https://pasgo.vn/nha-hang/au-delice-le-van-huu-1434",
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "pasgo"
+      ],
+      "notes": "Hai Bà Trưng のフレンチビストロ。価格帯は手の届くフレンチ。NEEDS_PLACES_API_LOOKUP",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "jacksons-steakhouse",
+      "name_official": "Jacksons Steakhouse",
+      "name_normalized": "jacksons steakhouse",
+      "name_alt": [
+        "ジャクソンズ・ステーキハウス"
+      ],
+      "address": "23J Hai Bà Trưng, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "latitude": 21.0247,
+      "longitude": 105.8469,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": null,
+      "phone_zalo_compatible": null,
+      "website": null,
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 3,
+      "price_range_vnd_per_person": [
+        670000,
+        700000
+      ],
+      "cuisine": [
+        "Steakhouse"
+      ],
+      "scenes": [
+        "business",
+        "casual-colleagues",
+        "date"
+      ],
+      "ambience": [
+        "modern",
+        "fine-dining"
+      ],
+      "has_view": false,
+      "japanese_support": false,
+      "michelin_status": null,
+      "is_hotel_restaurant": false,
+      "hotel_name": null,
+      "booking_channels": {
+        "phone": null,
+        "official_website_booking": null,
+        "pasgo_url": "https://pasgo.vn/nha-hang/jacksons-steakhouse---ghi-dau-dang-cap-am-thuc-au-840",
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "pasgo"
+      ],
+      "notes": "Hoàn Kiếm の欧風ステーキハウス。価格は手堅い中間帯。NEEDS_PLACES_API_LOOKUP",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "san-dining-cau-go",
+      "name_official": "San Dining",
+      "name_normalized": "san dining",
+      "name_alt": [
+        "サン・ダイニング"
+      ],
+      "address": "2 Ngõ Cầu Gỗ, Hàng Bạc, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "latitude": 21.0341,
+      "longitude": 105.8527,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": null,
+      "phone_zalo_compatible": null,
+      "website": null,
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 3,
+      "price_range_vnd_per_person": [
+        600000,
+        1200000
+      ],
+      "cuisine": [
+        "Fusion",
+        "Modern Vietnamese"
+      ],
+      "scenes": [
+        "date",
+        "casual-colleagues"
+      ],
+      "ambience": [
+        "modern",
+        "fine-dining"
+      ],
+      "has_view": false,
+      "japanese_support": false,
+      "michelin_status": null,
+      "is_hotel_restaurant": false,
+      "hotel_name": null,
+      "booking_channels": {
+        "phone": null,
+        "official_website_booking": null,
+        "pasgo_url": "https://pasgo.vn/nha-hang/san-dining-cau-go-5257",
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "pasgo"
+      ],
+      "notes": "Old Quarter のロマンチック・アジア＝ヨーロピアン融合。Hoan Kiem 散策後のディナーデート定番。Blind Date プログラムでも有名。NEEDS_PLACES_API_LOOKUP",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "cloud-nine-hang-be",
+      "name_official": "Cloud Nine Restaurant",
+      "name_normalized": "cloud nine restaurant",
+      "name_alt": [
+        "クラウドナイン"
+      ],
+      "address": "Floor 9, La Siesta Premium Hotel, 27 Hàng Bè, Hàng Bạc, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "latitude": 21.0341,
+      "longitude": 105.853,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": null,
+      "phone_zalo_compatible": null,
+      "website": null,
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 3,
+      "price_range_vnd_per_person": [
+        600000,
+        1200000
+      ],
+      "cuisine": [
+        "Fusion",
+        "Modern Vietnamese"
+      ],
+      "scenes": [
+        "date",
+        "business"
+      ],
+      "ambience": [
+        "modern",
+        "view"
+      ],
+      "has_view": true,
+      "japanese_support": false,
+      "michelin_status": null,
+      "is_hotel_restaurant": true,
+      "hotel_name": "La Siesta Premium Hanoi",
+      "booking_channels": {
+        "phone": null,
+        "official_website_booking": null,
+        "pasgo_url": "https://pasgo.vn/nha-hang/cloud-nine-restaurant-hang-be-3860",
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "pasgo"
+      ],
+      "notes": "Old Quarter のブティックホテル La Siesta Premium 9F。Old Quarter スカイラインの眺望。NEEDS_PLACES_API_LOOKUP",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "tim-ho-wan-l7",
+      "name_official": "Tim Ho Wan - L7 West Lake Hanoi",
+      "name_normalized": "tim ho wan l7 west lake hanoi",
+      "name_alt": [
+        "ティム・ホー・ワン"
+      ],
+      "address": "Floor 6, L7 West Lake Hanoi By Lotte, 683 Lạc Long Quân, Phú Thượng, Tây Hồ, Hà Nội",
+      "district": "Tây Hồ",
+      "latitude": 21.0712,
+      "longitude": 105.819,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": null,
+      "phone_zalo_compatible": null,
+      "website": null,
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 3,
+      "price_range_vnd_per_person": [
+        500000,
+        800000
+      ],
+      "cuisine": [
+        "Chinese"
+      ],
+      "scenes": [
+        "casual-colleagues",
+        "family",
+        "japanese-guests"
+      ],
+      "ambience": [
+        "modern",
+        "view"
+      ],
+      "has_view": true,
+      "japanese_support": false,
+      "michelin_status": null,
+      "is_hotel_restaurant": true,
+      "hotel_name": "L7 West Lake Hanoi By Lotte",
+      "booking_channels": {
+        "phone": null,
+        "official_website_booking": null,
+        "pasgo_url": "https://pasgo.vn/nha-hang/tim-ho-wan-l7-west-lake-hanoi-5704",
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "pasgo"
+      ],
+      "notes": "香港発のミシュランで知られる飲茶ブランド。L7 West Lake 6F、Tây Hồ ロケ。家族ランチ・同僚会食向き。NEEDS_PLACES_API_LOOKUP",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "layered-l7",
+      "name_official": "Layered",
+      "name_normalized": "layered",
+      "name_alt": [
+        "レイヤード"
+      ],
+      "address": "Floor 21, L7 West Lake Hanoi By Lotte, 683 Lạc Long Quân, Phú Thượng, Tây Hồ, Hà Nội",
+      "district": "Tây Hồ",
+      "latitude": 21.0712,
+      "longitude": 105.819,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": null,
+      "phone_zalo_compatible": null,
+      "website": null,
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 3,
+      "price_range_vnd_per_person": [
+        700000,
+        1500000
+      ],
+      "cuisine": [
+        "Fusion",
+        "Mediterranean"
+      ],
+      "scenes": [
+        "date",
+        "business",
+        "japanese-guests"
+      ],
+      "ambience": [
+        "modern",
+        "view",
+        "fine-dining"
+      ],
+      "has_view": true,
+      "japanese_support": false,
+      "michelin_status": null,
+      "is_hotel_restaurant": true,
+      "hotel_name": "L7 West Lake Hanoi By Lotte",
+      "booking_channels": {
+        "phone": null,
+        "official_website_booking": null,
+        "pasgo_url": "https://pasgo.vn/nha-hang/layered-l7-west-lake-hanoi-5703",
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "pasgo"
+      ],
+      "notes": "L7 West Lake 21F。West Lake パノラマ。アジア-ヨーロピアン融合のブッフェ＋アラカルト。NEEDS_PLACES_API_LOOKUP",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "red-bean-ma-may",
+      "name_official": "Red Bean Restaurant",
+      "name_normalized": "red bean restaurant",
+      "name_alt": [
+        "レッドビーン"
+      ],
+      "address": "94 Mã Mây, Hàng Buồm, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "latitude": 21.0359,
+      "longitude": 105.8519,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": null,
+      "phone_zalo_compatible": null,
+      "website": null,
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 3,
+      "price_range_vnd_per_person": [
+        500000,
+        900000
+      ],
+      "cuisine": [
+        "Vietnamese",
+        "Fusion"
+      ],
+      "scenes": [
+        "casual-colleagues",
+        "japanese-guests",
+        "date"
+      ],
+      "ambience": [
+        "traditional",
+        "modern"
+      ],
+      "has_view": false,
+      "japanese_support": false,
+      "michelin_status": null,
+      "is_hotel_restaurant": true,
+      "hotel_name": "La Siesta Classic Hanoi",
+      "booking_channels": {
+        "phone": null,
+        "official_website_booking": null,
+        "pasgo_url": "https://pasgo.vn/nha-hang/red-bean-restaurant---ma-may-2839",
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "pasgo"
+      ],
+      "notes": "Old Quarter La Siesta Classic 内のレストラン。NEEDS_PLACES_API_LOOKUP",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "moo-beef-steak-tran-quoc-toan",
+      "name_official": "Moo Beef Steak",
+      "name_normalized": "moo beef steak",
+      "name_alt": [
+        "ムー・ビーフ・ステーキ"
+      ],
+      "address": "59A Trần Quốc Toản, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "latitude": 21.0227,
+      "longitude": 105.8442,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": null,
+      "phone_zalo_compatible": null,
+      "website": null,
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 3,
+      "price_range_vnd_per_person": [
+        500000,
+        900000
+      ],
+      "cuisine": [
+        "Steakhouse"
+      ],
+      "scenes": [
+        "casual-colleagues",
+        "date",
+        "business"
+      ],
+      "ambience": [
+        "modern"
+      ],
+      "has_view": false,
+      "japanese_support": false,
+      "michelin_status": null,
+      "is_hotel_restaurant": false,
+      "hotel_name": null,
+      "booking_channels": {
+        "phone": null,
+        "official_website_booking": null,
+        "pasgo_url": "https://pasgo.vn/nha-hang/moo-beef-steak---tran-quoc-toan-1275",
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "pasgo"
+      ],
+      "notes": "ハノイ複数店舗展開のステーキ専門チェーンの本店系。NEEDS_PLACES_API_LOOKUP",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "ignite-sky-bar-duong-thanh",
+      "name_official": "Ignite Sky Bar",
+      "name_normalized": "ignite sky bar",
+      "name_alt": [
+        "イグナイト・スカイバー"
+      ],
+      "address": "Rooftop, Peridot Grand Luxury, 33 Đường Thành, Cửa Đông, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "latitude": 21.0339,
+      "longitude": 105.8456,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": null,
+      "phone_zalo_compatible": null,
+      "website": null,
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 3,
+      "price_range_vnd_per_person": [
+        500000,
+        1000000
+      ],
+      "cuisine": [
+        "Fusion",
+        "Mediterranean"
+      ],
+      "scenes": [
+        "date",
+        "business"
+      ],
+      "ambience": [
+        "rooftop",
+        "view",
+        "modern"
+      ],
+      "has_view": true,
+      "japanese_support": false,
+      "michelin_status": null,
+      "is_hotel_restaurant": true,
+      "hotel_name": "Peridot Grand Luxury Hotel",
+      "booking_channels": {
+        "phone": null,
+        "official_website_booking": null,
+        "pasgo_url": "https://pasgo.vn/nha-hang/ignite-sky-bar-duong-thanh-4671",
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "pasgo"
+      ],
+      "notes": "Peridot Grand 屋上、Old Quarter 360° パノラマ。デート・夜景に強い。NEEDS_PLACES_API_LOOKUP",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "olivine-duong-thanh",
+      "name_official": "Nhà hàng Olivine",
+      "name_normalized": "olivine",
+      "name_alt": [
+        "オリヴィン"
+      ],
+      "address": "Floor 11, Peridot Grand Luxury, 33 Đường Thành, Cửa Đông, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "latitude": 21.0339,
+      "longitude": 105.8456,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": null,
+      "phone_zalo_compatible": null,
+      "website": null,
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 3,
+      "price_range_vnd_per_person": [
+        600000,
+        1000000
+      ],
+      "cuisine": [
+        "Fusion",
+        "Mediterranean"
+      ],
+      "scenes": [
+        "date",
+        "business"
+      ],
+      "ambience": [
+        "modern",
+        "view"
+      ],
+      "has_view": true,
+      "japanese_support": false,
+      "michelin_status": null,
+      "is_hotel_restaurant": true,
+      "hotel_name": "Peridot Grand Luxury Hotel",
+      "booking_channels": {
+        "phone": null,
+        "official_website_booking": null,
+        "pasgo_url": "https://pasgo.vn/nha-hang/nha-hang-olivine-duong-thanh-4670",
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "pasgo"
+      ],
+      "notes": "同じ Peridot Grand の 11F インドアレストラン版。屋上 Ignite と相互補完。NEEDS_PLACES_API_LOOKUP",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "ruby-sky-bar-dao-duy-tu",
+      "name_official": "Ruby Sky Bar",
+      "name_normalized": "ruby sky bar",
+      "name_alt": [
+        "ルビー・スカイバー"
+      ],
+      "address": "Floor 11-12, 58-60-62 Đào Duy Từ, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "latitude": 21.0354,
+      "longitude": 105.8508,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": null,
+      "phone_zalo_compatible": null,
+      "website": null,
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 3,
+      "price_range_vnd_per_person": [
+        600000,
+        1000000
+      ],
+      "cuisine": [
+        "Fusion"
+      ],
+      "scenes": [
+        "date",
+        "casual-colleagues"
+      ],
+      "ambience": [
+        "rooftop",
+        "view",
+        "modern"
+      ],
+      "has_view": true,
+      "japanese_support": false,
+      "michelin_status": null,
+      "is_hotel_restaurant": false,
+      "hotel_name": null,
+      "booking_channels": {
+        "phone": null,
+        "official_website_booking": null,
+        "pasgo_url": "https://pasgo.vn/nha-hang/ruby-sky-bar-dao-duy-tu-5796",
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "pasgo"
+      ],
+      "notes": "Old Quarter ルーフトップバー＆ダイニング。価格は dining 帯のみ抽出（drinks-only からの混在を排除）。NEEDS_PLACES_API_LOOKUP",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "uu-dam-chay-nguyen-du",
+      "name_official": "Ưu Đàm Chay",
+      "name_normalized": "uu dam chay",
+      "name_alt": [
+        "ウーダムチャイ",
+        "優曇華"
+      ],
+      "address": "55 Nguyễn Du, Hai Bà Trưng, Hà Nội",
+      "district": "Hai Bà Trưng",
+      "latitude": 21.0224,
+      "longitude": 105.8478,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": null,
+      "phone_zalo_compatible": null,
+      "website": null,
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 2,
+      "price_range_vnd_per_person": [
+        500000,
+        900000
+      ],
+      "cuisine": [
+        "Vegetarian",
+        "Vietnamese"
+      ],
+      "scenes": [
+        "japanese-guests",
+        "date",
+        "casual-colleagues"
+      ],
+      "ambience": [
+        "traditional",
+        "modern"
+      ],
+      "has_view": false,
+      "japanese_support": false,
+      "michelin_status": null,
+      "is_hotel_restaurant": false,
+      "hotel_name": null,
+      "booking_channels": {
+        "phone": null,
+        "official_website_booking": null,
+        "pasgo_url": null,
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "veltra-jp-media"
+      ],
+      "notes": "VELTRA 代行予約対象。精進系ベジタリアン・ベトナム料理。max 9 名／日。同名で Michelin Bib Gourmand 掲載の 'Ưu Đàm' あり、同店か別店か要確認。NEEDS_PLACES_API_LOOKUP",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "cau-go-vietnamese",
+      "name_official": "Cầu Gỗ Vietnamese Cuisine Restaurant",
+      "name_normalized": "cau go vietnamese cuisine restaurant",
+      "name_alt": [
+        "カウゴー・ベトナミーズ"
+      ],
+      "address": "9 Đinh Tiên Hoàng, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "latitude": 21.0325,
+      "longitude": 105.8528,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": null,
+      "phone_zalo_compatible": null,
+      "website": null,
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 3,
+      "price_range_vnd_per_person": [
+        500000,
+        900000
+      ],
+      "cuisine": [
+        "Vietnamese"
+      ],
+      "scenes": [
+        "japanese-guests",
+        "family",
+        "casual-colleagues"
+      ],
+      "ambience": [
+        "traditional",
+        "view"
+      ],
+      "has_view": true,
+      "japanese_support": false,
+      "michelin_status": null,
+      "is_hotel_restaurant": false,
+      "hotel_name": null,
+      "booking_channels": {
+        "phone": null,
+        "official_website_booking": null,
+        "pasgo_url": null,
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "veltra-jp-media"
+      ],
+      "notes": "VELTRA 代行予約対象。Hoan Kiem 湖至近、湖ビュー席あり。鍋＋伝統家庭料理。NEEDS_PLACES_API_LOOKUP",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "ngon-garden",
+      "name_official": "Ngon Garden",
+      "name_normalized": "ngon garden",
+      "name_alt": [
+        "ゴン・ガーデン"
+      ],
+      "address": "70 Nguyễn Du, Hai Bà Trưng, Hà Nội",
+      "district": "Hai Bà Trưng",
+      "latitude": 21.0214,
+      "longitude": 105.8485,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": null,
+      "phone_zalo_compatible": null,
+      "website": null,
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 2,
+      "price_range_vnd_per_person": [
+        500000,
+        900000
+      ],
+      "cuisine": [
+        "Vietnamese"
+      ],
+      "scenes": [
+        "japanese-guests",
+        "family",
+        "casual-colleagues"
+      ],
+      "ambience": [
+        "traditional",
+        "garden"
+      ],
+      "has_view": false,
+      "japanese_support": false,
+      "michelin_status": null,
+      "is_hotel_restaurant": false,
+      "hotel_name": null,
+      "booking_channels": {
+        "phone": null,
+        "official_website_booking": null,
+        "pasgo_url": null,
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "veltra-jp-media"
+      ],
+      "notes": "VELTRA 代行予約対象。Quan An Ngon 系列のガーデン版。観光客＋日本人来客の定番。NEEDS_PLACES_API_LOOKUP",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "sente-flavor-of-lotus",
+      "name_official": "Senté - The Flavor of Lotus",
+      "name_normalized": "sente the flavor of lotus",
+      "name_alt": [
+        "センテ",
+        "蓮"
+      ],
+      "address": "20 Nguyễn Quang Bích, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "latitude": 21.0345,
+      "longitude": 105.8429,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": null,
+      "phone_zalo_compatible": null,
+      "website": null,
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 3,
+      "price_range_vnd_per_person": [
+        500000,
+        1000000
+      ],
+      "cuisine": [
+        "Vietnamese",
+        "Modern Vietnamese"
+      ],
+      "scenes": [
+        "date",
+        "japanese-guests",
+        "business"
+      ],
+      "ambience": [
+        "traditional",
+        "fine-dining"
+      ],
+      "has_view": false,
+      "japanese_support": false,
+      "michelin_status": null,
+      "is_hotel_restaurant": false,
+      "hotel_name": null,
+      "booking_channels": {
+        "phone": null,
+        "official_website_booking": null,
+        "pasgo_url": null,
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "veltra-jp-media"
+      ],
+      "notes": "VELTRA 代行予約対象。蓮料理がテーマの上質なベトナム料理。Smart casual。NEEDS_PLACES_API_LOOKUP",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "nam-phuong-phan-chu-trinh",
+      "name_official": "Nam Phương Restaurant",
+      "name_normalized": "nam phuong restaurant",
+      "name_alt": [
+        "ナム・フォン",
+        "南方"
+      ],
+      "address": "19 Phan Chu Trinh, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "latitude": 21.0237,
+      "longitude": 105.8568,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": null,
+      "phone_zalo_compatible": null,
+      "website": null,
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 3,
+      "price_range_vnd_per_person": [
+        600000,
+        1200000
+      ],
+      "cuisine": [
+        "Vietnamese",
+        "Seafood"
+      ],
+      "scenes": [
+        "business",
+        "japanese-guests",
+        "date"
+      ],
+      "ambience": [
+        "traditional",
+        "fine-dining",
+        "private-room"
+      ],
+      "has_view": false,
+      "japanese_support": false,
+      "michelin_status": null,
+      "is_hotel_restaurant": false,
+      "hotel_name": null,
+      "booking_channels": {
+        "phone": null,
+        "official_website_booking": null,
+        "pasgo_url": null,
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "veltra-jp-media"
+      ],
+      "notes": "VELTRA 代行予約対象。VIP に頻用されるシーフード寄りのベトナム家庭料理。接待・少人数会食向き。NEEDS_PLACES_API_LOOKUP",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "pepe-la-poule",
+      "name_official": "Pepe la Poule",
+      "name_normalized": "pepe la poule",
+      "name_alt": [
+        "ぺぺラプール"
+      ],
+      "address": "22 Quảng Khánh, Tây Hồ, Hà Nội",
+      "district": "Tây Hồ",
+      "latitude": 21.056,
+      "longitude": 105.8195,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": null,
+      "phone_zalo_compatible": null,
+      "website": null,
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 3,
+      "price_range_vnd_per_person": [
+        500000,
+        1000000
+      ],
+      "cuisine": [
+        "Chinese",
+        "Fusion"
+      ],
+      "scenes": [
+        "date",
+        "japanese-guests",
+        "casual-colleagues"
+      ],
+      "ambience": [
+        "modern",
+        "fine-dining"
+      ],
+      "has_view": false,
+      "japanese_support": true,
+      "michelin_status": null,
+      "is_hotel_restaurant": false,
+      "hotel_name": null,
+      "booking_channels": {
+        "phone": null,
+        "official_website_booking": null,
+        "pasgo_url": null,
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "veltra-jp-media"
+      ],
+      "notes": "VELTRA 代行予約対象。日本人オーナーシェフのモダン中華＋西洋料理。Tây Hồ で在留日本人にも人気。NEEDS_PLACES_API_LOOKUP",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "colette-french-bistro",
+      "name_official": "Colette French Bistro & Wine Bar",
+      "name_normalized": "colette french bistro and wine bar",
+      "name_alt": [
+        "コレット"
+      ],
+      "address": "12 Lò Sũ, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "latitude": 21.0314,
+      "longitude": 105.8567,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": null,
+      "phone_zalo_compatible": null,
+      "website": null,
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 3,
+      "price_range_vnd_per_person": [
+        600000,
+        1200000
+      ],
+      "cuisine": [
+        "French"
+      ],
+      "scenes": [
+        "date",
+        "casual-colleagues",
+        "business"
+      ],
+      "ambience": [
+        "modern",
+        "fine-dining"
+      ],
+      "has_view": false,
+      "japanese_support": false,
+      "michelin_status": null,
+      "is_hotel_restaurant": false,
+      "hotel_name": null,
+      "booking_channels": {
+        "phone": null,
+        "official_website_booking": null,
+        "pasgo_url": null,
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "veltra-jp-media"
+      ],
+      "notes": "VELTRA 代行予約対象。Hoan Kiem 湖近くのモダンフレンチ・ビストロ＆ワインバー。Smart casual、月曜休、max 5 名。NEEDS_PLACES_API_LOOKUP",
+      "last_updated": "2026-05-15"
+    },
+    {
+      "id": "izakaya-by-koki",
+      "name_official": "Izakaya by Koki",
+      "name_normalized": "izakaya by koki",
+      "name_alt": [
+        "イザカヤ・バイ・コウキ",
+        "居酒屋 by Koki"
+      ],
+      "address": "11 Lê Phụng Hiểu, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "latitude": 21.0289,
+      "longitude": 105.8542,
+      "google_maps_place_id": null,
+      "google_maps_url": null,
+      "phone": "+84 24 3987 8888",
+      "phone_zalo_compatible": false,
+      "website": "https://capellahotels.com/en/capella-hanoi/dining",
+      "rating": null,
+      "rating_count": null,
+      "price_level_google": 4,
+      "price_range_vnd_per_person": [
+        1500000,
+        3000000
+      ],
+      "cuisine": [
+        "Japanese"
+      ],
+      "scenes": [
+        "business",
+        "japanese-guests",
+        "casual-colleagues"
+      ],
+      "ambience": [
+        "fine-dining",
+        "modern"
+      ],
+      "has_view": false,
+      "japanese_support": true,
+      "michelin_status": "selected",
+      "is_hotel_restaurant": true,
+      "hotel_name": "Capella Hanoi",
+      "booking_channels": {
+        "phone": "+84 24 3987 8888",
+        "official_website_booking": "https://capellahotels.com/en/capella-hanoi/dining",
+        "pasgo_url": null,
+        "opentable_url": null,
+        "tablecheck_url": null,
+        "capichi_url": null,
+        "facebook_url": null,
+        "facebook_messenger": null,
+        "instagram_url": null,
+        "zalo_url": null
+      },
+      "sources": [
+        "veltra-jp-media",
+        "michelin"
+      ],
+      "notes": "Capella Hanoi 内、Hibana by Koki の姉妹コンセプト。寿司・刺身・天ぷら・居酒屋メニュー。Michelin Selected。VELTRA 代行予約対象。NEEDS_PLACES_API_LOOKUP",
+      "last_updated": "2026-05-15"
+    }
+  ]
+}

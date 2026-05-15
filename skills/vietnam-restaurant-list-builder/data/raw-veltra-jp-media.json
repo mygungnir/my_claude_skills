@@ -1,0 +1,24 @@
+{
+  "source": "veltra-jp-media",
+  "collected_at": "2026-05-15",
+  "veltra_url": "https://www.veltra.com/jp/asia/vietnam/hanoi/a/186726",
+  "notes": "VELTRA ハノイ代行予約サービスの「予約可能店舗の例」16 店。日本人が頻繁に予約する店 = japanese-guests 軸の主データ源。KKday は今回未取得（カテゴリ URL が分散しているため別 wave で取る）。",
+  "restaurants": [
+    {"name_official": "Chao Bản Vietnamese Restaurant", "raw_address": "98 Tô Ngọc Vân, Quảng An, Tây Hồ, Hà Nội", "raw_cuisine": "Northern Vietnamese traditional home cooking", "japanese_name": "チャオバン", "raw_notes": "Max 5 people; 3-4 day advance booking. **既存マスター chao-ban とマージ**"},
+    {"name_official": "Ưu Đàm Chay Restaurant", "raw_address": "55 Nguyễn Du, Hai Bà Trưng, Hà Nội", "raw_cuisine": "Vegetarian / Vietnamese", "japanese_name": "ウーダムチャイ", "raw_notes": "Max 9 people. Note: this is the Hai Ba Trung branch; the Michelin Bib Gourmand 'Ưu Đàm' might be the same or different — confirm in next wave"},
+    {"name_official": "Cầu Gỗ Vietnamese Cuisine Restaurant", "raw_address": "9 Đinh Tiên Hoàng, Hoàn Kiếm, Hà Nội", "raw_cuisine": "Vietnamese / hot pot, home cooking", "japanese_name": "カウゴーベトナミーズレストラン", "raw_notes": "Old Quarter, near Hoan Kiem Lake"},
+    {"name_official": "Ngon Garden", "raw_address": "70 Nguyễn Du, Hai Bà Trưng, Hà Nội", "raw_cuisine": "Vietnamese / traditional home cooking", "japanese_name": "ゴン ガーデン", "raw_notes": "Garden setting; family-friendly"},
+    {"name_official": "Senté: The Flavor of Lotus", "raw_address": "20 Nguyễn Quang Bích, Hoàn Kiếm, Hà Nội", "raw_cuisine": "Vietnamese / Lotus-themed", "japanese_name": "センテ", "raw_notes": "Smart casual dress code; advance booking required"},
+    {"name_official": "Luk Lak Vietnamese Restaurant", "raw_address": "4A Lê Thánh Tông, Hoàn Kiếm, Hà Nội", "raw_cuisine": "Vietnamese home cooking", "japanese_name": "ルック ラック", "raw_notes": "Chef trained 25 years in 5-star hotels. **既存マスター luk-lak とマージ**"},
+    {"name_official": "Quán Ăn Ngon Restaurant", "raw_address": "18 Phan Bội Châu, Hoàn Kiếm, Hà Nội", "raw_cuisine": "Northern Vietnamese / casual", "japanese_name": "クアン アン ゴン", "raw_notes": "10-min grace; price typically 200-400K/person = **SKILL 価格閾値以下** → invalid-entries で保留"},
+    {"name_official": "Backstage - Capella Hanoi", "raw_address": "11 Lê Phụng Hiểu, Hoàn Kiếm, Hà Nội", "raw_cuisine": "Modern Northern Vietnamese / Josper grill", "japanese_name": "バックステージ カペラハノイ", "raw_notes": "Smart casual; max 4 people. **既存マスター backstage-capella とマージ**"},
+    {"name_official": "Nam Phương Restaurant", "raw_address": "19 Phan Chu Trinh, Hoàn Kiếm, Hà Nội", "raw_cuisine": "Vietnamese / seafood-focused home cooking", "japanese_name": "ナム フォン", "raw_notes": "VIP-frequented; advance booking required"},
+    {"name_official": "Ashima Mushroom Hotpot", "raw_address": "182 Triệu Việt Vương, Hai Bà Trưng, Hà Nội", "raw_cuisine": "Asian-style mushroom hot pot", "japanese_name": "アシマ マッシュルーム ホットスポット", "raw_notes": "Max 9 people. Estimated price 300-500K/person — borderline; defer"},
+    {"name_official": "Pepe la Poule", "raw_address": "22 Quảng Khánh, Tây Hồ, Hà Nội", "raw_cuisine": "Modern Chinese / Western fusion", "japanese_name": "ぺぺラプール", "raw_notes": "Japanese owner-chef; 30-45 min grace; advance booking required"},
+    {"name_official": "Colette French Bistro & Wine Bar", "raw_address": "12 Lò Sũ, Hoàn Kiếm, Hà Nội", "raw_cuisine": "Modern French", "japanese_name": "コレットフレンチ ビストロ＆ワインバー", "raw_notes": "Smart casual; closed Mondays; max 5 people"},
+    {"name_official": "Tầm Vị Restaurant", "raw_address": "4B Yên Thế, Hà Nội", "raw_cuisine": "Northern Vietnamese", "japanese_name": "タム ビ", "raw_notes": "Michelin one-star. **既存マスター tam-vi とマージ**"},
+    {"name_official": "Hibana by Koki", "raw_address": "Capella Hanoi, 11 Lê Phụng Hiểu, Hoàn Kiếm, Hà Nội", "raw_cuisine": "Japanese / Teppanyaki", "japanese_name": "ヒバナ バイ コウキ", "raw_notes": "Michelin one-star; under-12 not allowed. **既存マスター hibana-by-koki とマージ**"},
+    {"name_official": "Izakaya by Koki", "raw_address": "Capella Hanoi, 11 Lê Phụng Hiểu, Hoàn Kiếm, Hà Nội", "raw_cuisine": "Japanese / Sushi, sashimi, tempura, izakaya", "japanese_name": "イザカヤ バイ コウキ", "raw_notes": "Michelin Selected; sister concept to Hibana by Koki"},
+    {"name_official": "Pizza 4 P's", "raw_address": "5F, Lotte West Lake, 272 Võ Chí Công, Tây Hồ, Hà Nội (and 9 other Hanoi locations)", "raw_cuisine": "Italian / Pizza", "japanese_name": "ピザ フォーピース", "raw_notes": "Japanese owner; price typically 200-400K/person = **SKILL 価格閾値以下** → invalid-entries で保留"}
+  ]
+}
