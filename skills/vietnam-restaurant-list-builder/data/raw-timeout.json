@@ -1,0 +1,55 @@
+{
+  "source": "timeout",
+  "collected_at": "2026-05-26",
+  "source_url": "https://www.timeout.com/hanoi/restaurants/best-restaurants-hanoi",
+  "restaurants": [
+    {
+      "name_official": "Chả Cá Thăng Long",
+      "raw_address": "6B P. Đường Thành, Hoàn Kiếm",
+      "raw_cuisine": "Vietnamese",
+      "raw_notes": "Theatrical and immersive century-old townhouse specializing in turmeric-marinated catfish (chả cá) prepared tableside with fresh herbs. ⚠️ POTENTIAL FAKE-ADDRESS WARNING per SKILL.md — multiple impostor 'Chả Cá Thăng Long' branches exist in Hanoi. Verify official location in enrichment."
+    },
+    {
+      "name_official": "Phở 10 Lý Quốc Sư",
+      "raw_address": "10 P. Lý Quốc Sư, Hoàn Kiếm",
+      "raw_cuisine": "Vietnamese pho",
+      "raw_notes": "Tightly packed Old Quarter spot serving Northern-style beef noodle soup. ⚠️ STREET FOOD — below 800k VND threshold. Defer to invalid-entries (Michelin Bib Gourmand 2025+2026)."
+    },
+    {
+      "name_official": "Namaste",
+      "raw_address": "46 P. Thợ Nhuộm, Trần Hưng Đạo, Hoàn Kiếm",
+      "raw_cuisine": "Indian",
+      "raw_notes": "Hanoi's original destination Indian restaurant operating since early 2000s with traditional recipes refined over decades. Reliable upscale Indian option."
+    },
+    {
+      "name_official": "Tầm Vị",
+      "raw_address": "4B P. Yên Thế, Đống Đa",
+      "raw_cuisine": "Vietnamese",
+      "raw_notes": "Already in master JSON via michelin + veltra-jp-media. Add 'timeout' to sources. TimeOut: Temple of Northern Vietnamese home cooking in vintage wooden house; Michelin-starred mother-daughter operation."
+    },
+    {
+      "name_official": "Izakaya by Koki",
+      "raw_address": "11 P. Lê Phụng Hiểu, Hoàn Kiếm (Capella Hanoi)",
+      "raw_cuisine": "Japanese",
+      "raw_notes": "Already in master JSON via michelin + veltra-jp-media. Add 'timeout' to sources. TimeOut: Upscale izakaya within Capella with 70% Japanese-sourced ingredients; sophisticated yet casual atmosphere."
+    },
+    {
+      "name_official": "Quán Ăn Ngon",
+      "raw_address": "18 P. Phan Bội Châu, Hoàn Kiếm",
+      "raw_cuisine": "Vietnamese (multi-regional food court)",
+      "raw_notes": "Vietnam's most stylish food court with regional stations. ⚠️ BORDERLINE — dishes 50-150k each, per-person spend likely below 800k VND target. Defer to invalid-entries OR include as casual-colleagues / family option."
+    },
+    {
+      "name_official": "Etēsia",
+      "raw_address": "14B P. Lò Sũ, Hoàn Kiếm",
+      "raw_cuisine": "Mediterranean",
+      "raw_notes": "Sophisticated wine bar in converted shophouse with 350-bottle cellar and seafood-led small plates. Great date / business option."
+    },
+    {
+      "name_official": "Gia",
+      "raw_address": "61 P. Văn Miếu, Đống Đa",
+      "raw_cuisine": "Vietnamese contemporary fine dining",
+      "raw_notes": "Already in master JSON via michelin. Add 'timeout' to sources. TimeOut: Michelin-starred restaurant by Vietnam's first female Michelin chef; visible fermentation lab and intimate kitchen tours."
+    }
+  ]
+}

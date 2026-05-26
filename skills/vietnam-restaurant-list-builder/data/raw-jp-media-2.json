@@ -1,0 +1,264 @@
+{
+  "source": "jp-media-2",
+  "collected_at": "2026-05-26",
+  "notes": "Wave-3 Japanese-language media curation. Consolidated from: vietscout.jp 高級10選, tabispavn 出張者向け, vietscout 接待14選, poste-vn 高級, e.vnexpress fine dining, asiamystika 2026 Michelin, vietscout 日本食22選. Sources annotated per-entry as sub_sources to track triangulation.",
+  "source_urls": [
+    "https://vietscout.jp/article/hanoi-high-end-restaurants/",
+    "https://tabispavn.com/hanoi-luxury-restaurant/",
+    "https://vietscout.jp/article/hanoi-restaurant-attend/",
+    "https://poste-vn.com/lifetips/hanoi-restaurant-356",
+    "https://e.vnexpress.net/photo/food-recipes/10-best-fine-dining-restaurants-in-vietnam-4960759.html",
+    "https://asiamystika.com/blog/best-restaurant-in-hanoi",
+    "https://vietscout.jp/article/hanoi-japanese-restaurant/",
+    "https://wkvetter.com/?p=100420"
+  ],
+  "restaurants": [
+    {
+      "name_official": "La Badiane",
+      "name_alt": ["ラ バディアン"],
+      "raw_address": "10 P. Nam Ngư, Cửa Nam, Hoàn Kiếm, Hà Nội",
+      "raw_cuisine": "French",
+      "new": true,
+      "sub_sources": ["vietscout-luxury10"],
+      "raw_notes": "Authentic French by French chef. Michelin Selected. Intimate upscale ambience. Anniversary dinner standard. ~80万〜200万 VND/person."
+    },
+    {
+      "name_official": "LABRI – Oriental Neo Bistro",
+      "name_alt": ["ラブリ"],
+      "raw_address": "113 P. Bùi Thị Xuân, Hai Bà Trưng, Hà Nội",
+      "raw_cuisine": "French fusion (Korean-Vietnamese)",
+      "new": true,
+      "sub_sources": ["vietscout-luxury10"],
+      "raw_notes": "Michelin Selected. Korean chef creating French-Vietnamese-Korean fusion. Popular with younger upscale diners. Trending."
+    },
+    {
+      "name_official": "La Table Hanoia",
+      "name_alt": ["プレスクラブ", "Press Club", "ラ ターブル ハノイア"],
+      "raw_address": "12 P. Lý Đạo Thành, Tràng Tiền, Hoàn Kiếm, Hà Nội",
+      "raw_cuisine": "French",
+      "new": true,
+      "sub_sources": ["vietscout-luxury10"],
+      "raw_notes": "French restaurant by disciple of a French Michelin 1-star chef. 600-bottle wine cellar. Award-winning cocktails. Press Club building. Upscale anniversary / business venue."
+    },
+    {
+      "name_official": "Ushinokura",
+      "name_alt": ["うしのくら", "牛の蔵 ハノイ店"],
+      "raw_address": "44-4 P. Vạn Bảo, Ngọc Khánh, Ba Đình, Hà Nội",
+      "raw_cuisine": "Japanese yakiniku",
+      "new": true,
+      "sub_sources": ["vietscout-luxury10"],
+      "raw_notes": "Hanoi branch of Tokyo Hiroo flagship. Selected wagyu specialty. Course menus available."
+    },
+    {
+      "name_official": "Yakiniku Yazawa Hanoi",
+      "name_alt": ["焼肉矢澤", "ミート矢澤 ハノイ店"],
+      "raw_address": "42 P. Tăng Bạt Hổ, Phạm Đình Hổ, Hai Bà Trưng, Hà Nội",
+      "raw_cuisine": "Japanese yakiniku",
+      "new": true,
+      "sub_sources": ["vietscout-luxury10"],
+      "raw_notes": "Hanoi outpost of Tokyo's popular Meat Yazawa. A5 wagyu specialist. Also offers yukke and sukiyaki. Business-grade Japanese."
+    },
+    {
+      "name_official": "Khuê Restaurant",
+      "name_alt": ["クェレストラン"],
+      "raw_address": "46A P. Nguyễn Trường Tộ, Trúc Bạch, Ba Đình, Hà Nội (Le Jardin Hotel Haute Couture 12F)",
+      "raw_cuisine": "Modern Vietnamese fusion",
+      "new": true,
+      "sub_sources": ["vietscout-luxury10", "vnexpress-fine-dining"],
+      "raw_notes": "12th floor of Le Jardin Hotel. Modern Vietnamese with French technique. View dining. Birthday balloon decoration available. Business + date."
+    },
+    {
+      "name_official": "Hemispheres Steak & Seafood Grill",
+      "name_alt": ["ヘミスフィアズ"],
+      "raw_address": "K5 Nghi Tam, Xuan Dieu Road, 11 Từ Hoa Công Chúa, Quảng An, Tây Hồ, Hà Nội (Sheraton Hanoi 2F)",
+      "raw_cuisine": "Steakhouse / Seafood",
+      "new": true,
+      "sub_sources": ["vietscout-luxury10", "vnexpress-fine-dining"],
+      "raw_notes": "Sheraton Hanoi. Michelin Selected (2023, 2024). Ibaraki-prefecture A5 wagyu steaks. Black Angus, US prime cuts. Prices 180,000–1,700,000 VND."
+    },
+    {
+      "name_official": "Madame Hien",
+      "name_alt": ["マダムヒエン"],
+      "raw_address": "15 Chân Cầm, Hàng Trống, Hoàn Kiếm, Hà Nội",
+      "raw_cuisine": "Modern Vietnamese / French colonial",
+      "new": true,
+      "sub_sources": ["tabispavn"],
+      "raw_notes": "French colonial converted building in Old Quarter. Visited by Tim Cook (Apple CEO) and President Macron. Garden seating. Casual-friendly dress code. Set menu ~2000円~ JPY."
+    },
+    {
+      "name_official": "Viet Rice Essence",
+      "name_alt": ["ベトライスエッセンス"],
+      "raw_address": "Hanoi Old Quarter (west side)",
+      "raw_cuisine": "Vietnamese (royal style)",
+      "new": true,
+      "sub_sources": ["tabispavn"],
+      "raw_notes": "Royal court atmosphere. Traditional music & dance performances during dinner. Google review 4.9/5 (1600+ reviews). Per-dish ~1000-1500 JPY. Verify exact address in enrichment."
+    },
+    {
+      "name_official": "Duong's Restaurant",
+      "name_alt": ["ユンレストラン", "DUONG'S Restaurant"],
+      "raw_address": "27 Ngo Huyen St., Hoan Kiem (also: 7-9 Ma May, Hoan Kiem for DUONG'S 2)",
+      "raw_cuisine": "Vietnamese fusion",
+      "new": true,
+      "sub_sources": ["tabispavn", "vietscout-attend14", "wkvetter-24"],
+      "raw_notes": "By Chef Duong (Top Chef contest 4th place, Vietnamese Iron Chef selection). Two branches (Ma May = DUONG'S 2). Traditional + modern fusion. Near Hoan Kiem Lake."
+    },
+    {
+      "name_official": "Hanoi Garden Restaurant",
+      "name_alt": ["ハノイガーデン"],
+      "raw_address": "36 Hang Manh St., Hoan Kiem, Ha Noi",
+      "raw_cuisine": "Vietnamese",
+      "new": true,
+      "sub_sources": ["vietscout-attend14", "wkvetter-24"],
+      "raw_notes": "Established 1998. Indochina architecture. Open terrace + indoor seating. Wide drink selection. Card accepted."
+    },
+    {
+      "name_official": "Cay Cau Restaurant",
+      "name_alt": ["カイカウ"],
+      "raw_address": "17 Tran Hung Dao St., Cua Nam, Hoan Kiem, Ha Noi (Dragon Hotel)",
+      "raw_cuisine": "Vietnamese (seafood-focused)",
+      "new": true,
+      "sub_sources": ["wkvetter-24"],
+      "raw_notes": "Several-hundred capacity. Private rooms + terrace. Fresh seafood. Large-group / banquet capable."
+    },
+    {
+      "name_official": "Azuma Restaurant",
+      "name_alt": ["アズマレストラン", "東"],
+      "raw_address": "23 Ngoc Khanh, Ba Dinh, Hanoi (Lakeside Hotel)",
+      "raw_cuisine": "Japanese (sushi + yakiniku + nabe)",
+      "new": true,
+      "sub_sources": ["poste-vn-luxury"],
+      "raw_notes": "Inside Lakeside Hotel. Sushi counter + teppan tables + yakiniku zones. 100+ capacity large hall and VIP rooms. Business banquet standard."
+    },
+    {
+      "name_official": "Kappo Ishida",
+      "name_alt": ["割烹いし田", "石田"],
+      "raw_address": "15a Nguyễn Đình Thi, Thuỵ Khuê, Tây Hồ, Hà Nội",
+      "raw_cuisine": "Japanese kappo",
+      "new": true,
+      "sub_sources": ["poste-vn-luxury"],
+      "raw_notes": "Upscale kappo with chef-selected ingredients and seasonal courses. Private rooms. Business / formal."
+    },
+    {
+      "name_official": "Azabu",
+      "name_alt": ["麻布"],
+      "raw_address": "84 Trần Nhân Tông, Nguyễn Du, Hai Bà Trưng, Hà Nội (Hotel du Parc Hanoi)",
+      "raw_cuisine": "Japanese (washoku)",
+      "new": true,
+      "sub_sources": ["poste-vn-luxury"],
+      "raw_notes": "Inside Hotel du Parc Hanoi. Chic wood-paneled interior. Authentic Japanese. Often used by resident expats."
+    },
+    {
+      "name_official": "Fukurai",
+      "name_alt": ["福来"],
+      "raw_address": "No.12 - Alley 9 - Dao Tan street, Ba Dinh district, Hanoi",
+      "raw_cuisine": "Japanese",
+      "new": true,
+      "sub_sources": ["poste-vn-luxury"],
+      "raw_notes": "All private rooms (except 1F counter). Sashimi assortment 539,000 VND. Seafood hot pot 550,000 VND. Per-person spend approaches 800k-1.5M for full course. Business / formal Japanese."
+    },
+    {
+      "name_official": "Rhythms",
+      "name_alt": ["リズムス"],
+      "raw_address": "33-35 Hang Dau Street, Hoàn Kiếm, Hanoi (La Sinfonía del Rey Hotel & Spa 7F)",
+      "raw_cuisine": "International fine dining",
+      "new": true,
+      "sub_sources": ["vnexpress-fine-dining"],
+      "raw_notes": "Tripadvisor 2025 Travelers' Choice 'Best of the Best'. 7F views over Hoan Kiem Lake + Old Quarter. Set menus from 1,050,000 VND/person. View dining."
+    },
+    {
+      "name_official": "November Restaurant & Sky Bar",
+      "name_alt": ["ノベンバー"],
+      "raw_address": "105 Nguyen Truong To Street, Quan Thanh, Ba Dinh (Le Jardin Hotel Haute Couture)",
+      "raw_cuisine": "Asian with European techniques",
+      "new": true,
+      "sub_sources": ["vnexpress-fine-dining"],
+      "raw_notes": "Inside Le Jardin (same building as Khue). Sky bar + restaurant. Wine + cocktail focus. Seasonal tasting menus. View + drinks oriented."
+    },
+    {
+      "name_official": "Kumihimo",
+      "name_alt": ["クミヒモ", "組紐"],
+      "raw_address": "8 Do Duc Duc Street, Nam Tu Liem, Hanoi (JW Marriott Hotel Hanoi)",
+      "raw_cuisine": "Japanese",
+      "new": true,
+      "sub_sources": ["vnexpress-fine-dining"],
+      "raw_notes": "Inside JW Marriott. Private Sumibi (charcoal) rooms. Exclusive set menus + premium BBQ. Creative Japanese."
+    },
+    {
+      "name_official": "GRILL SEIBU",
+      "name_alt": ["グリル セイブ"],
+      "raw_address": "8 Tay Ho St., Quang An Ward, Tay Ho Dist., Ha Noi",
+      "raw_cuisine": "Yoshoku (Japanese-style Western) — steak, hamburg, house-made soba",
+      "new": true,
+      "sub_sources": ["vietscout-japanese22"],
+      "raw_notes": "Opened 2024. Japanese chef Maki-san with experience at famous hotels worldwide. Calm yoshoku ambience. Private rooms. Business banquet capable."
+    },
+    {
+      "name_official": "Naniwa Kappo Kirokuan",
+      "name_alt": ["浪速割烹 㐂六庵", "Kirokuan"],
+      "raw_address": "34 36 Phạm Huy Thông, Ngọc Khánh, Ba Đình, Hà Nội",
+      "raw_cuisine": "Japanese kappo / teishoku",
+      "new": true,
+      "sub_sources": ["vietscout-japanese22"],
+      "raw_notes": "Hidden lakeside hem (alley) location. Private rooms. Various teishoku menus."
+    },
+    {
+      "name_official": "Steak & Hamburg Nari",
+      "name_alt": ["ステーキ&ハンバーグ 也", "也"],
+      "raw_address": "635 P. Kim Mã, Ngọc Khánh, Ba Đình, Hà Nội",
+      "raw_cuisine": "Steak / Hamburg (Japanese-style yoshoku)",
+      "new": true,
+      "sub_sources": ["vietscout-japanese22"],
+      "raw_notes": "Kim Ma street. Stylish-yet-casual; comfortable for mixed groups. Borderline upscale but solid for casual-colleagues."
+    },
+    {
+      "name_official": "Mutsumian",
+      "name_alt": ["むつみ庵", "MUTSUMIAN"],
+      "raw_address": "52a P. Linh Lang, Cống Vị, Ba Đình, Hà Nội",
+      "raw_cuisine": "Japanese eel (unagi)",
+      "new": true,
+      "sub_sources": ["vietscout-japanese22"],
+      "raw_notes": "HCMC-popular unagi specialist Hanoi branch. Uses Nha Trang-farmed eel. Premium unaju / hitsumabushi."
+    },
+    {
+      "name_official": "Bún Chả Hương Liên",
+      "raw_address": "24 Le Van Huu Street, Hai Ba Trung",
+      "raw_cuisine": "Vietnamese bun cha",
+      "new": true,
+      "sub_sources": ["asiamystika-2026michelin"],
+      "raw_notes": "Michelin Bib Gourmand 2026. Famous for 2016 Obama-Bourdain meal ('Combo Obama'). ⚠️ STREET FOOD — well below 800k VND threshold. DEFER to invalid-entries."
+    },
+    {
+      "name_official": "Phở Gia Truyền Bát Đàn",
+      "raw_address": "49 Bat Dan Street, Hoan Kiem",
+      "raw_cuisine": "Vietnamese pho",
+      "new": true,
+      "sub_sources": ["asiamystika-2026michelin"],
+      "raw_notes": "Michelin Bib Gourmand 2026 'Worth Queueing For'. ⚠️ STREET FOOD — DEFER to invalid-entries."
+    },
+    {
+      "name_official": "Tầm Vị",
+      "raw_address": "4B Yen The Street, Ba Dinh",
+      "raw_cuisine": "Vietnamese",
+      "new": false,
+      "sub_sources": ["asiamystika-2026michelin"],
+      "raw_notes": "Already in master. Confirmed Michelin 1-star for 2026 edition."
+    },
+    {
+      "name_official": "Gia",
+      "raw_address": "61 Van Mieu Street, Dong Da",
+      "raw_cuisine": "Vietnamese contemporary",
+      "new": false,
+      "sub_sources": ["asiamystika-2026michelin"],
+      "raw_notes": "Already in master. Confirmed Michelin 1-star for 2026 edition."
+    },
+    {
+      "name_official": "Hibana by Koki",
+      "raw_address": "Basement 1, Capella Hanoi, 11 Le Phung Hieu, Hoan Kiem",
+      "raw_cuisine": "Japanese teppanyaki",
+      "new": false,
+      "sub_sources": ["asiamystika-2026michelin"],
+      "raw_notes": "Already in master. Confirmed Michelin 1-star for 2026 edition. Yaeyama Kyori beef, Hokkaido hairy crab."
+    }
+  ]
+}
