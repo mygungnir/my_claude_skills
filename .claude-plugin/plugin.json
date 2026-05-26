@@ -1,0 +1,13 @@
+{
+  "name": "my-claude-skills",
+  "version": "0.1.0",
+  "description": "mygungnir の個人用 Claude Code スキル集。ベトナム語学習の音声教材作成スキルと、ハノイ中〜高級レストランの list-builder / finder / booking 3スキル構成を同梱。",
+  "author": {
+    "name": "mygungnir",
+    "url": "https://github.com/mygungnir"
+  },
+  "repository": "https://github.com/mygungnir/my_claude_skills",
+  "skills": [
+    "./skills"
+  ]
+}

@@ -1,6 +1,21 @@
 # My Claude Skills & Plugins
 
-This repository contains my custom Claude skills.
+This repository is a Claude Code plugin marketplace that bundles my custom skills as a single plugin.
+
+## Install
+
+Claude Code から marketplace を追加し、`my-claude-skills` プラグインを install する:
+
+```text
+/plugin marketplace add mygungnir/my_claude_skills
+/plugin install my-claude-skills@my-claude-skills
+```
+
+更新する場合:
+
+```text
+/plugin marketplace update my-claude-skills
+```
 
 ## Skills
 
