@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-15",
-  "version": "0.2-wave2",
-  "notes": "schema.md のバリデーション規則に沿って、本リスト v0.1〜v0.2 から弾いたエントリ。理由とともに保持し、次回再実行時に再判定する。",
+  "generated_at": "2026-05-26",
+  "version": "0.3-wave3",
+  "notes": "schema.md のバリデーション規則に沿って、本リスト v0.1〜v0.2 から弾いたエントリ。理由とともに保持し、次回再実行時に再判定する。 Wave 3 で追加した invalid: Bib Gourmand pho/bun cha 系。",
   "entries": [
     {
       "name_official": "Quán Ăn Ngon",
@@ -76,6 +76,33 @@
       "source_category": "bib-gourmand",
       "reason": "out_of_scope_per_skill",
       "details": "SKILL.md「対象外: 屋台、ローカル食堂、ファストフード、80万ドン未満の店」に該当。Michelin Bib Gourmand であってもこのリストの目的（接待・記念日・賓客向け中〜高級店）からは外れる。tagging-guide.md の japanese-guests 例として残す価値はあるので、別カテゴリ（観光・体験リスト）の作成は別 SKILL もしくは次フェーズで検討。"
+    },
+    {
+      "name_official": "Phở 10 Lý Quốc Sư",
+      "source": "timeout / asiamystika-2026michelin",
+      "source_category": "bib-gourmand",
+      "address": "10 P. Lý Quốc Sư, Hoàn Kiếm, Hà Nội",
+      "reason": "out_of_scope_street_food",
+      "details": "Michelin Bib Gourmand 2025+2026 確定。TimeOut Hanoi Best Restaurants にも掲載。但し pho 屋台系で per-person ~50-80K VND と本リスト下限 (80万 VND) を大きく下回る。観光・japanese-guests 体験軸の別リストで扱う候補。",
+      "added_in_wave": 3
+    },
+    {
+      "name_official": "Bún Chả Hương Liên",
+      "source": "asiamystika-2026michelin",
+      "source_category": "bib-gourmand",
+      "address": "24 Le Van Huu Street, Hai Ba Trung, Hanoi",
+      "reason": "out_of_scope_street_food",
+      "details": "Michelin Bib Gourmand 2026。Obama-Bourdain 2016 で世界的に有名（Combo Obama）。但し bun cha 屋台系で per-person ~80-120K VND。観光・体験軸の別リスト候補。",
+      "added_in_wave": 3
+    },
+    {
+      "name_official": "Phở Gia Truyền Bát Đàn",
+      "source": "asiamystika-2026michelin",
+      "source_category": "bib-gourmand",
+      "address": "49 Bat Dan Street, Hoan Kiem, Hanoi",
+      "reason": "out_of_scope_street_food",
+      "details": "Michelin Bib Gourmand 2026 \"Worth Queueing For\"。80年超の老舗だが self-service・cash-only の屋台運営で本リスト下限を満たさない。",
+      "added_in_wave": 3
     }
   ]
 }

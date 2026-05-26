@@ -1,0 +1,39 @@
+{
+  "source": "opentable",
+  "collected_at": "2026-05-26",
+  "notes": "OpenTable Hanoi neighborhood page (/neighborhood/vn/vietnam/hanoi-restaurants) repeatedly timed out via WebFetch. The 4 entries below were extracted from OpenTable's r/ search-result URLs via WebSearch snippets. Hanoi's OpenTable inventory is small relative to HCMC — most upscale Hanoi venues use phone / Capichi / PasGo rather than OpenTable.",
+  "restaurants": [
+    {
+      "name_official": "Stellar Steakhouse & Teppanyaki",
+      "source_url": "https://www.opentable.com/r/stellar-steakhouse-intercontinental-hanoi-landmark72-hanoi",
+      "raw_address": "InterContinental Hanoi Landmark72, Cau Giay Urban Area, Hanoi",
+      "raw_cuisine": "Steakhouse / Teppanyaki",
+      "raw_price_band": "$$$$",
+      "raw_notes": "Inside InterContinental Hanoi Landmark72. Asia's Luxury Steakhouse by World Luxury Restaurant Awards. Wine Spectator Award of Excellence. Only steakhouse in Hanoi dry-aging beef in-house. 4.6 stars on OpenTable. Chef de Cuisine Tim Nolte."
+    },
+    {
+      "name_official": "3 Spoons",
+      "source_url": "https://www.opentable.com/r/3-spoons-intercontinental-hanoi-landmark72-hanoi",
+      "raw_address": "InterContinental Hanoi Landmark72, Cau Giay Urban Area, Hanoi",
+      "raw_cuisine": "International buffet / interactive cooking",
+      "raw_price_band": "$$$",
+      "raw_notes": "Inside InterContinental Hanoi Landmark72. Eclectic luxury dining with multiple cuisines and open cooking stations, panoramic Hanoi views. 4.8 stars on OpenTable. Best for breakfast / weekend brunch with Hanoi skyline."
+    },
+    {
+      "name_official": "La Chapelle Ha Noi",
+      "source_url": "https://www.opentable.com/r/la-chapelle-ha-noi-hoan-kiem",
+      "raw_address": "Hoan Kiem, Ha Noi (near St. Joseph's Cathedral)",
+      "raw_cuisine": "Vietnamese fine dining (Indochina / Gothic-influenced)",
+      "raw_price_band": "$$$",
+      "raw_notes": "Fine dining overlooking St. Joseph's Cathedral. Indochina + Gothic design. Contemporary Vietnamese setting suitable for special occasions."
+    },
+    {
+      "name_official": "Rice Bistro",
+      "source_url": "https://www.opentable.com/r/rice-bistro-hanoi",
+      "raw_address": "Old Quarter, Hoàn Kiếm, Hanoi (~5 min from St. Joseph's Cathedral)",
+      "raw_cuisine": "Vietnamese (traditional + Western flair)",
+      "raw_price_band": "$$",
+      "raw_notes": "Original founded 1994. Vietnamese culinary tradition redefined with Western flair. Tripadvisor top-rated. Per tabispavn the per-person spend is ~1000 JPY at lunch which would put it BELOW the 800k VND threshold for this list — but OpenTable lists it as $$ and dinner pricing trends higher. Borderline include; verify dinner pricing in enrichment."
+    }
+  ]
+}

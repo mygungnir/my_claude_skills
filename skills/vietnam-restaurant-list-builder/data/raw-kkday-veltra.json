@@ -1,0 +1,120 @@
+{
+  "source": "veltra-proxy",
+  "collected_at": "2026-05-26",
+  "source_url": "https://www.veltra.com/jp/asia/vietnam/hanoi/a/186726",
+  "notes": "VELTRA Hanoi restaurant proxy-reservation service example list. Most entries are already in master via veltra-jp-media source — they get tagged with the additional 'veltra-proxy' source for the wave-3 sources list. New (not yet in master) entries are flagged with new=true. KKday equivalent (kkday.com/ja/category/vn-vietnam/restaurants/list) was checked via search — almost entirely Ho Chi Minh inventory for restaurant proxy bookings, no new Hanoi entries surfaced.",
+  "restaurants": [
+    {
+      "name_official": "Chao Bản",
+      "raw_address": "98 To Ngoc Van, Tay Ho, Hanoi",
+      "phone": "+84 24 3633 3435",
+      "new": false,
+      "raw_notes": "Already in master. Add 'veltra-proxy' source."
+    },
+    {
+      "name_official": "Ưu Đàm Chay",
+      "raw_address": "55 Nguyen Du, Ha Noi",
+      "phone": "+84 98 134 98 98",
+      "new": false,
+      "raw_notes": "Already in master (Bib Gourmand veg). Add 'veltra-proxy' source."
+    },
+    {
+      "name_official": "Cầu Gỗ Vietnamese Cuisine Restaurant",
+      "raw_address": "9 P. Đinh Tiên Hoàng, Hoàn Kiếm, Hà Nội",
+      "phone": "+84 24 3926 0808",
+      "new": false,
+      "raw_notes": "Already in master. Lakeside terrace views Hoàn Kiếm. Add 'veltra-proxy' source."
+    },
+    {
+      "name_official": "Ngon Garden",
+      "raw_address": "70 Nguyen Du, Hai Ba Trung, Hanoi",
+      "phone": "+84 902 226 224",
+      "new": false,
+      "raw_notes": "Already in master. Add 'veltra-proxy' source."
+    },
+    {
+      "name_official": "Senté - The Flavor of Lotus",
+      "raw_address": "20 Nguyen Quang Bich, Hoan Kiem, Hanoi",
+      "phone": "+84 91 104 89 20 / +84 24 32 668 968",
+      "new": false,
+      "raw_notes": "Already in master. Add 'veltra-proxy' source."
+    },
+    {
+      "name_official": "Luk Lak Vietnamese Restaurant",
+      "raw_address": "4A Le Thanh Tong, Hoan Kiem, Hanoi",
+      "phone": "+84 943 143 686",
+      "new": false,
+      "raw_notes": "Already in master. Add 'veltra-proxy' source."
+    },
+    {
+      "name_official": "Quán Ăn Ngon",
+      "raw_address": "18 Phan Boi Chau, Hoan Kiem, Hanoi",
+      "phone": "+84 903 246 963",
+      "new": true,
+      "raw_notes": "NOT yet in master. Vietnamese food court / multi-regional. Per-person spend typically under 800k VND — likely defer to invalid-entries OR include as casual option."
+    },
+    {
+      "name_official": "Backstage",
+      "raw_address": "11 Le Phung Hieu, Hoan Kiem, Hanoi (Capella)",
+      "phone": "+84 24 3987 8888",
+      "new": false,
+      "raw_notes": "Already in master. Add 'veltra-proxy' source."
+    },
+    {
+      "name_official": "Nam Phương Restaurant",
+      "raw_address": "19 Phan Chu Trinh, Hoan Kiem, Hanoi",
+      "phone": "0916 193 883",
+      "new": false,
+      "raw_notes": "Already in master. World VIPs (PM Abe, PM Koizumi). Add 'veltra-proxy' source."
+    },
+    {
+      "name_official": "Ashima Mushroom Hot Pot",
+      "raw_address": "182 Trieu Viet Vuong, Hai Ba Trung, Hanoi",
+      "phone": "024 7300 7318",
+      "new": true,
+      "raw_notes": "NEW. Asian mushroom hot pot chain founded in Hanoi. Add 'veltra-proxy' source. Per vietscout listed as recommended for Japanese visitors — has 6+ branches in Hanoi."
+    },
+    {
+      "name_official": "Pepe la Poule",
+      "raw_address": "22 Quang Khanh, Tay Ho, Hanoi",
+      "phone": "+84 24 6291 2641",
+      "new": false,
+      "raw_notes": "Already in master. Modern Chinese + Italian by Japanese owner-chef. Add 'veltra-proxy' source."
+    },
+    {
+      "name_official": "Colette French Bistro & Wine Bar",
+      "raw_address": "12 Lo Su, Hoan Kiem, Hanoi",
+      "phone": "+84 76 625 3630",
+      "new": false,
+      "raw_notes": "Already in master. Add 'veltra-proxy' source."
+    },
+    {
+      "name_official": "Tầm Vị",
+      "raw_address": "4B Yen The, Hanoi",
+      "phone": "+84 96 632 31 31",
+      "new": false,
+      "raw_notes": "Already in master. Add 'veltra-proxy' source."
+    },
+    {
+      "name_official": "Hibana by Koki",
+      "raw_address": "Capella Hanoi, 11 Le Phung Hieu, Hoan Kiem",
+      "phone": null,
+      "new": false,
+      "raw_notes": "Already in master. Add 'veltra-proxy' source."
+    },
+    {
+      "name_official": "Izakaya by Koki",
+      "raw_address": "Capella Hanoi, 11 Le Phung Hieu, Hoan Kiem",
+      "phone": null,
+      "new": false,
+      "raw_notes": "Already in master. Add 'veltra-proxy' source."
+    },
+    {
+      "name_official": "Pizza 4P's Lotte West Lake",
+      "raw_address": "5F, Lotte West Lake, 272 Vo Chi Cong street, Tay Ho District, Hanoi",
+      "phone": "1900 6043",
+      "new": true,
+      "raw_notes": "NEW. Italian pizza by Japanese owner. 10+ branches in Hanoi. Per-person spend is borderline (typically 400-600k VND for solid pizza+drink) — INCLUDE as casual-colleagues / family option, NOT for business or date upscale."
+    }
+  ]
+}
